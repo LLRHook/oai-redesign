@@ -1,0 +1,106 @@
+{
+  "page": "Workshop: Agent Retrieval",
+  "figmaFileKey": "H0BdGnAtkzZbKDvlVf2GDt",
+  "figmaPageName": "Prototype",
+  "figmaPageId": "101:2",
+  "outerFrameId": "167:2",
+  "innerFrameId": "167:3",
+  "position": { "x": 8000, "y": 0 },
+  "dimensions": { "width": 1440, "height": 900 },
+  "clipsContent": true,
+  "sections": [
+    {
+      "name": "Navbar",
+      "id": "167:4",
+      "type": "FRAME",
+      "height": 78,
+      "childCount": 3,
+      "description": "Logo (OAI) + Nav Links (Home, Workshops highlighted, Program, Speakers, Registration, Contact Us) + Register CTA button"
+    },
+    {
+      "name": "Workshop Hero",
+      "id": "167:17",
+      "type": "FRAME",
+      "height": 278,
+      "childCount": 2,
+      "description": "Title: Optimizing Retrieval for Agentic Systems (Sora Bold 48px), Badge: 2 Hours / March 31, 2026 (teal on dark)"
+    },
+    {
+      "name": "Speaker Bio",
+      "id": "167:21",
+      "type": "FRAME",
+      "height": 328,
+      "childCount": 2,
+      "description": "Photo placeholder (200x200) + Speaker info: Trey Grainger, Founder & CEO / Searchkernel, bio text"
+    },
+    {
+      "name": "Workshop Overview",
+      "id": "167:27",
+      "type": "FRAME",
+      "height": 296,
+      "childCount": 2,
+      "description": "Heading: Workshop Overview (Sora SemiBold 32px), body text about AI-powered information retrieval"
+    },
+    {
+      "name": "Time & Location",
+      "id": "167:30",
+      "type": "FRAME",
+      "height": 218,
+      "childCount": 1,
+      "description": "Dark card with icon + March 31, 2026 + 3:15 PM - 5:15 PM / Cobb Galleria"
+    },
+    {
+      "name": "Requirements",
+      "id": "167:36",
+      "type": "FRAME",
+      "height": 255,
+      "childCount": 2,
+      "description": "Two columns: Who Should Attend (3 bullet items) + Who Should NOT Attend (3 bullet items)"
+    },
+    {
+      "name": "Footer",
+      "id": "167:47",
+      "type": "FRAME",
+      "height": 438,
+      "childCount": 3,
+      "description": "Brand column + Content column + Workshops column, divider, copyright"
+    }
+  ],
+  "content": {
+    "title": "Optimizing Retrieval for Agentic Systems",
+    "speaker": {
+      "name": "Trey Grainger",
+      "title": "Founder & CEO",
+      "company": "Searchkernel",
+      "bio": "Lead author of AI-Powered Search. 18 years of experience in search and data science."
+    },
+    "overview": "Learn fundamental techniques of modern AI-powered information retrieval. Covers vector search, semantic search, and how to think about retrieval for modern AI and agentic systems.",
+    "schedule": {
+      "date": "March 31, 2026",
+      "time": "3:15 PM - 5:15 PM",
+      "location": "Cobb Galleria"
+    },
+    "whoShouldAttend": [
+      "Software Engineers and Data Scientists",
+      "Anyone wanting modern AI Search techniques",
+      "Engineers optimizing retrieval for RAG systems"
+    ],
+    "whoShouldNotAttend": [
+      "Complete beginners with no coding experience",
+      "Those looking for a non-technical overview",
+      "Anyone expecting pre-built solutions without hands-on work"
+    ]
+  },
+  "designTokens": {
+    "background": "#0A0A0B",
+    "surface": "#14141F",
+    "elevated": "#1E1E2E",
+    "orange": "#FF6B35",
+    "teal": "#00D4AA",
+    "textPrimary": "#F5F5F7",
+    "textSecondary": "#9CA3AF",
+    "textTertiary": "#6B7280",
+    "border": "#2D2D3D"
+  },
+  "buildTimestamp": "2026-04-02"
+}

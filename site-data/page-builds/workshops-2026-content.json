@@ -1,0 +1,150 @@
+{
+  "slug": "workshops-2026",
+  "url": "https://www.oaiconference.com/workshops-2026",
+  "title": "Workshops | Optimized AI Conference",
+  "content": {
+    "nav_items": [
+      {"text": "Home", "href": "https://www.oaiconference.com"},
+      {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+      {"text": "Production Ready Agentic AI Systems", "href": "https://www.oaiconference.com/production-agents"},
+      {"text": "How to use OpenClaw", "href": "https://www.oaiconference.com/openclaw"},
+      {"text": "Context Engineering", "href": "https://www.oaiconference.com/context-engineering"},
+      {"text": "Building an AI-Native Career", "href": "https://www.oaiconference.com/ai-career"},
+      {"text": "Mastering GPUs & Agentic Coding", "href": "https://www.oaiconference.com/master-agentic-coding"},
+      {"text": "Multi Agent Architecture", "href": "https://www.oaiconference.com/multi-agent"},
+      {"text": "Optimizing LLM Training and Inference", "href": "https://www.oaiconference.com/optimize-llm-performance"},
+      {"text": "Trustworthy Agentic AI", "href": "https://www.oaiconference.com/trustworthy-agents"},
+      {"text": "Optimizing Retrieval for Agentic Systems", "href": "https://www.oaiconference.com/agent-retrieval"},
+      {"text": "Program", "href": "https://www.oaiconference.com/program"},
+      {"text": "Speakers", "href": "https://www.oaiconference.com/speakers"},
+      {"text": "Registration", "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"},
+      {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers"}
+    ],
+    "headings": [
+      {"level": 1, "text": "Workshops"}
+    ],
+    "workshops": [
+      {
+        "title": "Mastering AI Agents",
+        "speaker": "Hamza Farooq - Founder - Traversaal.ai/ex-Google",
+        "description": "This workshop provides a comprehensive understanding of designing and building AI agents from the ground up. Instead of relying on pre-built frameworks like CrewAI or Autogen, participants will learn the core mechanics of agent development to create fully customizable solutions. By the end, attendees will have the tools and knowledge to build robust, scalable, and production-grade AI agents tailored to their needs.",
+        "detail_link": "https://www.oaiconference.com/master-agents"
+      },
+      {
+        "title": "Optimizing Enterprise RAG Systems",
+        "speaker": "Trey Grainger - Author - AI-Powered Search",
+        "description": "RAG systems will be a mainstay in every enterprise. Tuning a RAG systems involves deep knowledge of both vector and traditional keyword search, coupled with efficient context management strategies for LLMs. This entire equation becomes more complicated when multiple modalities of data enter the equation.",
+        "detail_link": "https://www.oaiconference.com/ragsystems"
+      },
+      {
+        "title": "Building an AI-Native Career: How to use AI to Uplevel Yourself Professionally",
+        "speaker": "Zeyuan (Faradawn) Yang - Technical Marketing Engineer - NVIDIA",
+        "description": "The way we work is evolving fast -- and AI-native professionals are learning how to move from using tools to building workflows. In this session, you'll explore how agentic CLI tools go beyond coding, how 'vibe insights' reduce the distance between data and action, and how ephemeral software can help you solve niche problems quickly. Learn to see the world through 'software vision' and develop the mindset needed to stay adaptable, productive, and ahead of the curve in an AI-driven era.",
+        "detail_link": "https://www.oaiconference.com/ai-career"
+      },
+      {
+        "title": "Mastering Agentic Coding & GPUs",
+        "speaker": "Anton Alexander - Sr. GenAI Specialist for NVIDIA - AWS",
+        "description": "Mastering Agentic Coding and GPUs is a hands-on, 2-hour workshop focused on building, deploying, and scaling production-ready agentic systems. Learn how to structure agentic coding workflows, ensure reliability and safety, and effectively use GPUs and Kubernetes to run agent-driven workloads from experimentation through production.",
+        "detail_link": "https://www.oaiconference.com/master-agentic-coding"
+      },
+      {
+        "title": "Multi Agent Architecture using ADK (Google)",
+        "speaker": "Hamza Farooq - CEO - Traversaal AI (Ex-Google)",
+        "description": "In this workshop, learn how to build collaborative multi-agent systems using Google's Agent-to-Agent (A2A) protocol, MCP, and the Google Agent Development Kit (ADK). This session shows how agents communicate, share context and tools, and coordinate tasks -- bringing everything together to design multi-agent systems that work together on complex problems.",
+        "detail_link": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "title": "Optimizing Retrieval for Agentic Systems",
+        "speaker": "Trey Grainger - Founder & CEO, Searchkernel | Author, AI-Powered Search",
+        "description": "Learn the core techniques and design patterns behind modern AI-powered retrieval. Since the quality of RAG systems is driven largely by retrieval, we'll focus on how to design and optimize retrieval for AI and agentic systems, and introduce agentic search, where agents coordinate retrieval through tool calls and relevance feedback loops.",
+        "detail_link": "https://www.oaiconference.com/agent-retrieval"
+      },
+      {
+        "title": "Optimizing LLM Training and Inference Performance on GPUs",
+        "speaker": "Zeyuan (Faradawn) Yang - Technical Marketing Engineer - NVIDIA",
+        "description": "This 1.5 hour workshop explores how to optimize GPU performance and reduce operational costs when training and serving large language models. Attendees will learn practical strategies for high-throughput training and low-latency inference, including modern parallelism techniques and disaggregated serving architectures used in production-scale LLM systems.",
+        "detail_link": "https://www.oaiconference.com/optimize-llm-performance"
+      },
+      {
+        "title": "Context Engineering with Redis and LangChain",
+        "speaker": "Robert Shelton - Applied AI Engineering Manager - Redis",
+        "description": "Design scalable AI agents by mastering context engineering -- the discipline of structuring memory, retrieval, and reasoning workflows so LLMs behave reliably in production. This workshop explores how Redis and LangChain enable high-performance agent systems through semantic caching, vector search, and intelligent context management.",
+        "detail_link": "https://www.oaiconference.com/context-engineering"
+      },
+      {
+        "title": "Trustworthy Agentic AI: Engineering Security, Compliance, and Governance from Ground Up",
+        "speaker": "",
+        "description": "[2 Hours] Agentic AI systems are moving from experimentation to production, autonomously browsing the web, executing code, and calling APIs. Their autonomy and probabilistic reasoning introduce new risks that traditional security cannot handle. This workshop explores threats such as prompt injection, API abuse, data leakage, and compliance issues, and discusses the governance, guardrails, and observability needed to deploy agentic systems safely in production.",
+        "detail_link": "https://www.oaiconference.com/trustworthy-agents"
+      },
+      {
+        "title": "OpenClaw: How to Actually Use it, with Practical Instructions",
+        "speaker": "Brian Turcotte - Developer Relations - Kilo Code",
+        "description": "[1 hour] The first wave of AI gave us chatbots. Now we have agents that act -- managing email, triaging GitHub issues, monitoring systems, and running workflows 24/7. But most teams get stuck managing infrastructure instead of building value. This workshop shows you how to deploy and run a fully-managed OpenClaw agent with KiloClaw -- so you can focus on what your agent should actually do.",
+        "detail_link": "https://www.oaiconference.com/openclaw"
+      },
+      {
+        "title": "Building Production-ready Agentic AI Systems",
+        "speaker": "Jonathan Vogel - Developer Advocate - AWS (with Raja Iqbal - Founder & CEO - Ejento AI)",
+        "description": "[1.5 hours] Learn to build AI agents for real-world apps using Strands SDK. Strands simplifies agent development by leveraging state of the art models to plan, chain thoughts and call tools. In this workshop, you will gain hands-on experience creating agents across diverse use cases.",
+        "detail_link": "https://www.oaiconference.com/production-agents"
+      }
+    ],
+    "body_text": [
+      {"section": "Workshops Intro (2025)", "text": "Workshops will be held on April 16th, Day 3 of the conference. Take advantage of hands on sessions from industry experts to increase your skills in deploying models to production."},
+      {"section": "2026 Workshops", "text": "Workshops take place on the afternoon of Day 2 at 1:00 PM on March 31. Join hands-on sessions led by industry experts to build practical skills for deploying and scaling AI systems in production."}
+    ],
+    "buttons": [
+      {"text": "FIND OUT MORE", "href": "https://www.oaiconference.com/master-agents", "context": "Mastering AI Agents"},
+      {"text": "FIND OUT MORE", "href": "https://www.oaiconference.com/ragsystems", "context": "Optimizing Enterprise RAG Systems"},
+      {"text": "Details", "href": "https://www.oaiconference.com/ai-career", "context": "Building an AI-Native Career"},
+      {"text": "Details", "href": "https://www.oaiconference.com/optimize-llm-performance", "context": "Optimizing LLM Training"},
+      {"text": "Details", "href": "https://www.oaiconference.com/master-agentic-coding", "context": "Mastering Agentic Coding"},
+      {"text": "Details", "href": "https://www.oaiconference.com/multi-agent", "context": "Multi Agent Architecture"},
+      {"text": "Details", "href": "https://www.oaiconference.com/agent-retrieval", "context": "Optimizing Retrieval"},
+      {"text": "Details", "href": "https://www.oaiconference.com/context-engineering", "context": "Context Engineering"},
+      {"text": "Details", "href": "https://www.oaiconference.com/openclaw", "context": "OpenClaw"},
+      {"text": "Details", "href": "https://www.oaiconference.com/trustworthy-agents", "context": "Trustworthy Agentic AI"},
+      {"text": "Details", "href": "https://www.oaiconference.com/production-agents", "context": "Production-ready Agentic AI"},
+      {"text": "Strands SDK", "href": "https://strandsagents.com/?trk=23ae1f57-152e-4145-9aa7-04a603514f54&sc_channel=el", "context": "Production-ready Agentic AI"}
+    ],
+    "links": [
+      {"text": "Home", "href": "https://www.oaiconference.com"},
+      {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+      {"text": "Program", "href": "https://www.oaiconference.com/program"},
+      {"text": "Speakers", "href": "https://www.oaiconference.com/speakers"},
+      {"text": "Registration", "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"},
+      {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers"},
+      {"text": "Talks", "href": "https://www.oaiconference.com/talks"},
+      {"text": "About", "href": "https://www.oaiconference.com/about"},
+      {"text": "Code of Conduct", "href": "https://www.oaiconference.com/code-of-conduct"},
+      {"text": "Gallery", "href": "https://www.oaiconference.com/gallery"}
+    ],
+    "images": [
+      {"alt": "OAI Only Col-02.png", "context": "Logo/Header"},
+      {"alt": "Cool to Warm 1.png", "context": "Workshops page background/hero"},
+      {"alt": "OAI Conference-blk.png(edited).png", "context": "Footer logo"},
+      {"alt": "Youtube", "context": "Social media icon"},
+      {"alt": "X", "context": "Social media icon"},
+      {"alt": "LinkedIn", "context": "Social media icon"}
+    ],
+    "footer": {
+      "text": "Content: Home, Speakers, Workshops, Program, Contact Us | Join our newsletter | Subscribe to our newsletter and get notified for future events. | 23 Lilac Dr, Warren, NJ 07059 | +1 (641) 455-6100 | (c) Optimized AI Conference 2024 | Registration",
+      "links": [
+        {"text": "Home", "href": "https://www.oaiconference.com/home-1"},
+        {"text": "Speakers", "href": "https://www.oaiconference.com/past-speakers"},
+        {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2"},
+        {"text": "Program", "href": "https://www.oaiconference.com/talks"},
+        {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us-old-1"},
+        {"text": "+1 (641) 455-6100", "href": "tel:+1 (641) 455-6100"},
+        {"text": "Registration", "href": "https://www.oaiconference.com"}
+      ]
+    },
+    "metadata": {
+      "description": "The Optimized AI Conference workshops cover building AI agents, retrieval systems, and RAG architectures using open-source LLMs, with practical, end-to-end integration."
+    }
+  }
+}

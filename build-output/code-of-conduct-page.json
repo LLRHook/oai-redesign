@@ -1,0 +1,15 @@
+{
+  "page": "Code of Conduct",
+  "outerFrameId": "170:2",
+  "position": { "x": 17600, "y": 0 },
+  "structure": {
+    "scrollContent": "170:3",
+    "navbar": "170:4",
+    "hero": "170:9",
+    "contentWrapper": "170:10",
+    "cocContent": "170:11",
+    "footer": "170:12"
+  },
+  "textNodeCount": 15,
+  "buildCalls": 2
+}

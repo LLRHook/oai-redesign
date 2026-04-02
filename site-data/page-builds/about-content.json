@@ -1,0 +1,90 @@
+{
+  "slug": "about",
+  "url": "https://www.oaiconference.com/about",
+  "title": "Optimized AI Conference 2026 | OAI Conference",
+  "content": {
+    "nav_items": [
+      {"text": "Home", "href": "https://www.oaiconference.com"},
+      {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+      {"text": "Production Ready Agentic AI Systems", "href": "https://www.oaiconference.com/production-agents"},
+      {"text": "How to use OpenClaw", "href": "https://www.oaiconference.com/openclaw"},
+      {"text": "Context Engineering", "href": "https://www.oaiconference.com/context-engineering"},
+      {"text": "Building an AI-Native Career", "href": "https://www.oaiconference.com/ai-career"},
+      {"text": "Mastering GPUs & Agentic Coding", "href": "https://www.oaiconference.com/master-agentic-coding"},
+      {"text": "Multi Agent Architecture", "href": "https://www.oaiconference.com/multi-agent"},
+      {"text": "Optimizing LLM Training and Inference", "href": "https://www.oaiconference.com/optimize-llm-performance"},
+      {"text": "Trustworthy Agentic AI", "href": "https://www.oaiconference.com/trustworthy-agents"},
+      {"text": "Optimizing Retrieval for Agentic Systems", "href": "https://www.oaiconference.com/agent-retrieval"},
+      {"text": "Program", "href": "https://www.oaiconference.com/program"},
+      {"text": "Speakers", "href": "https://www.oaiconference.com/speakers"},
+      {"text": "Registration", "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"},
+      {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers"}
+    ],
+    "headings": [
+      {"level": 1, "text": "Optimized AI Conference 2026"},
+      {"level": 2, "text": "Time & Location"},
+      {"level": 2, "text": "Tickets"},
+      {"level": 3, "text": "Lite Pass (No Meals)"},
+      {"level": 3, "text": "Full Conference Pass"},
+      {"level": 3, "text": "Student Pass"},
+      {"level": 2, "text": "Share this event"},
+      {"level": 2, "text": "Content"},
+      {"level": 2, "text": "Workshops"},
+      {"level": 2, "text": "Join our newsletter"}
+    ],
+    "body_text": [
+      {"section": "Event Overview", "text": "A hands-on event for professionals and innovators driving real-world AI impact. Over two days of keynotes, breakout sessions, and a half-day of practical workshops, you'll learn how to deploy LLMs, agents, and multimodal systems in production while connecting with leaders shaping the future of AI."},
+      {"section": "Time & Location", "text": "Mon, Mar 30"},
+      {"section": "Time & Location", "text": "Mar 30, 2026, 7:30 AM - Mar 31, 2026, 5:30 PM"},
+      {"section": "Time & Location", "text": "Cobb Galleria Centre, 2 Galleria Pkwy SE, Atlanta, GA 30339, USA"},
+      {"section": "Tickets: Lite Pass", "text": "Get conference entry at a discounted rate. Includes access to all talks and workshops, plus light refreshments. Meals are not included. Limited seats available - first come, first served."},
+      {"section": "Tickets: Lite Pass", "text": "$350.00"},
+      {"section": "Tickets: Full Conference Pass", "text": "The Full Conference Pass includes access to all talks and workshops, with meals included."},
+      {"section": "Tickets: Full Conference Pass", "text": "$450.00"},
+      {"section": "Tickets: Student Pass", "text": "The Student Pass includes access to all talks and workshops. Meals and refreshments are not included."},
+      {"section": "Tickets: Student Pass", "text": "$150.00"},
+      {"section": "Newsletter", "text": "Subscribe to our newsletter and get notified for future events."},
+      {"section": "Footer", "text": "23 Lilac Dr, Warren, NJ 07059"},
+      {"section": "Footer", "text": "+1 (641) 455-6100"},
+      {"section": "Footer", "text": "(c) Optimized AI Conference 2024"}
+    ],
+    "buttons": [],
+    "links": [
+      {"text": "Home", "href": "https://www.oaiconference.com"},
+      {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+      {"text": "Program", "href": "https://www.oaiconference.com/program"},
+      {"text": "Speakers", "href": "https://www.oaiconference.com/speakers"},
+      {"text": "Registration", "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"},
+      {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers"},
+      {"text": "+1 (641) 455-6100", "href": "tel:+1 (641) 455-6100"},
+      {"text": "Talks", "href": "https://www.oaiconference.com/talks"},
+      {"text": "About", "href": "https://www.oaiconference.com/about"},
+      {"text": "Code of Conduct", "href": "https://www.oaiconference.com/code-of-conduct"},
+      {"text": "Gallery", "href": "https://www.oaiconference.com/gallery"}
+    ],
+    "images": [
+      {"alt": "OAI Only Col-02.png", "context": "Logo/Header"},
+      {"alt": "OAI Conference-blk.png(edited).png", "context": "Footer logo"},
+      {"alt": "Youtube", "context": "Social media icon"},
+      {"alt": "X", "context": "Social media icon"},
+      {"alt": "LinkedIn", "context": "Social media icon"}
+    ],
+    "footer": {
+      "text": "Content: Home, Speakers, Workshops, Program, Contact Us | Join our newsletter | Subscribe to our newsletter and get notified for future events. | 23 Lilac Dr, Warren, NJ 07059 | +1 (641) 455-6100 | (c) Optimized AI Conference 2024 | Registration",
+      "links": [
+        {"text": "Home", "href": "https://www.oaiconference.com/home-1"},
+        {"text": "Speakers", "href": "https://www.oaiconference.com/past-speakers"},
+        {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2"},
+        {"text": "Program", "href": "https://www.oaiconference.com/talks"},
+        {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us-old-1"},
+        {"text": "+1 (641) 455-6100", "href": "tel:+1 (641) 455-6100"},
+        {"text": "Registration", "href": "https://www.oaiconference.com"}
+      ]
+    },
+    "metadata": {
+      "description": "A hands-on event for professionals and innovators driving real-world AI impact. Over two days of keynotes, breakout sessions, and a half-day of practical workshops, you'll learn how to deploy LLMs, agents, and multimodal systems in production while connecting with leaders shaping the future of AI."
+    }
+  }
+}

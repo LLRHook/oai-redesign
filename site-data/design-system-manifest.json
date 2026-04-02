@@ -1,0 +1,167 @@
+{
+  "$schema": "design-system-manifest-v1",
+  "built_at": "2026-04-02T19:15:00Z",
+  "p0_fixes_applied": true,
+  "figma_file_key": "H0BdGnAtkzZbKDvlVf2GDt",
+  "design_system_page_id": "62:2",
+  "fonts_loaded": [
+    { "family": "Sora", "style": "Bold", "loaded": true },
+    { "family": "Sora", "style": "SemiBold", "loaded": true },
+    { "family": "Sora", "style": "ExtraBold", "loaded": true },
+    { "family": "Sora", "style": "Regular", "loaded": true },
+    { "family": "Plus Jakarta Sans", "style": "Bold", "loaded": true },
+    { "family": "Plus Jakarta Sans", "style": "SemiBold", "loaded": true },
+    { "family": "Plus Jakarta Sans", "style": "Medium", "loaded": true },
+    { "family": "Plus Jakarta Sans", "style": "Regular", "loaded": true }
+  ],
+  "text_styles": {
+    "Display/H1": "S:5c6769e18f26d68492cb2ed8b86c963a383ae984,",
+    "Display/H2": "S:b337f94fa26923fc85cbc3baea4555fe431a298a,",
+    "Display/H3": "S:43e0889cf033ce0fd2d82aba0ed3692773232efd,",
+    "Display/H4": "S:0bfc09c7dd8c2add4a01b4407cce53e3bdaecf55,",
+    "Display/H5": "S:9cd641693ef205148a15333b48faad8860759946,",
+    "Display/H6": "S:260c1b09e03454d58e2b0c94a59f6aa22cc51633,",
+    "Body/Regular": "S:e3b870e7217d200e1ac84d00e520797e9d161c81,",
+    "Body/Medium": "S:7200be86c221a93583c0a7d4a98d4fde6b7f74c1,",
+    "Body/Small": "S:dfe604bb7191ea2ee851a27ccaeeac0c762a2825,",
+    "Body/Caption": "S:98f22454bf4d9d9174aa16facafcac5985f0cdde,",
+    "UI/Button": "S:a719ac25d7cd944bc5db38deb00d1cca314106bc,",
+    "UI/Overline": "S:e527d750ba8ebdf51e46d65ff15157f543892c2b,",
+    "UI/Nav Link": "S:3b169674f55dbdaf9094a5da27ee5623d0094845,"
+  },
+  "paint_styles": {
+    "Brand/OAI Orange": "S:74a09be83f0bca65701ec1c6efc02ef903fb288b,",
+    "Brand/OAI Orange Hover": "S:e842dc7034343ae1dfca15a6c5898ac66fe858ae,",
+    "Brand/OAI Teal": "S:f991dbb3ebf74fb7d9690864547ad5366f5371fb,",
+    "Brand/OAI Teal Hover": "S:907fd2e165b23248599b7d538453c44ea6c30d1d,",
+    "Background/Primary": "S:eed48a40793684e21f93736ffe64acddab7ee662,",
+    "Background/Surface": "S:ca7b90f6aca9f46147fd23d8814eb4f31dd046eb,",
+    "Background/Surface Elevated": "S:cd6c5a5afd0bf6a63e3977a98ba284ed7fae0007,",
+    "Background/White": "S:69743eb8845db16fdeb25eb8e25b589c374fc431,",
+    "Text/Primary": "S:038b2ccc835d204ba762ea8a45a19887c723b9a5,",
+    "Text/Secondary": "S:011cc176018c9d1f729547bf6ac67ac5aa543672,",
+    "Text/Tertiary": "S:7536fa9946df89e46619920cad133653aed2c1d6,",
+    "Text/Dark": "S:9fdca1989c48028b6536eab5b500c3c55ee6a61e,",
+    "Neutral/50": "S:b016e8882746daa8875103317b726ade20d7dcc8,",
+    "Neutral/100": "S:f6ee0f4f3cc083038ab604d0ad884b8fca42b5d4,",
+    "Neutral/200": "S:b04af82c44def98a19975dcdc5d22f42994f6de0,",
+    "Neutral/300": "S:2ebcf2eb645bb18f3fdfa9e7846999c6ded75259,",
+    "Neutral/400": "S:3e41dd144d968c401943f24fc535355689079287,",
+    "Neutral/500": "S:9dc39da29e8db743cf2c9926582fe67e9dd3ced7,",
+    "Neutral/600": "S:da7621b0fa75dc5714855c8833d2f2fdf7f36c57,",
+    "Neutral/700": "S:77427ed4024760398727b7a17fc11e2ca2055d59,",
+    "Neutral/800": "S:3445f3e1b63b1881706b9d3e4ef15c7abb7ea7f1,",
+    "Neutral/900": "S:c135a15c154331020ad8501fcf4c8ae0df5bc183,",
+    "Semantic/Success": "S:6fe95c474c1de293b3696d7cc896c41b6c7eca11,",
+    "Semantic/Warning": "S:ce38e031d4abcc2cd5f386f8f95dbffd599605c7,",
+    "Semantic/Error": "S:48950295a7ce328f93f82067580144cf83ac6f53,",
+    "Border/Default": "S:9ff780f9da9b8280cc770ea237bdb2ae4a46b8aa,",
+    "Border/Subtle": "S:72eaf568857637ce00d34ad5ffccfcb227cd43a8,"
+  },
+  "components": {
+    "Button": {
+      "component_set_id": "65:10",
+      "component_set_key": "74106440867f4f525d4f1de0902b380617ce5e66",
+      "variants": {
+        "Primary": "65:2",
+        "Secondary": "65:4",
+        "Ghost": "65:6",
+        "Outline": "65:8"
+      }
+    },
+    "Navbar": {
+      "component_id": "67:2",
+      "component_key": "f278fc028aa4aac17eed67e2e5550198d6b5d7d5"
+    },
+    "SectionHeader": {
+      "component_id": "68:2",
+      "component_key": "fc70b941df6a44dbeeb7a7c1ee7af3104fa01e48"
+    },
+    "SpeakerCard": {
+      "component_id": "69:2",
+      "component_key": "179af5a79958aba89ac9a706569fb5be6f56b155"
+    },
+    "WorkshopCard": {
+      "component_id": "70:2",
+      "component_key": "941f1d88c71bcf0aec5de78ccb759e2bac50958a"
+    },
+    "TicketCard": {
+      "component_id": "71:2",
+      "component_key": "d3e118cee30548f54b6fb7fcc05c887c53fb74ef"
+    },
+    "TestimonialCard": {
+      "component_id": "72:2",
+      "component_key": "e86e4ff904147fd6f3aa8b217789c6d05bec3ddd"
+    },
+    "Badge": {
+      "component_id": "72:9",
+      "component_key": "b2211fee36e976bc75e359eb640e21018511d635"
+    },
+    "Footer": {
+      "component_id": "73:2",
+      "component_key": "f927b0d928e3fa66e959d58644375d3df0e7ac95"
+    },
+    "FormField": {
+      "component_id": "74:2",
+      "component_key": "5b2e44bcd3f3117b508bc67cbc730600942edc02"
+    },
+    "EventDetailBlock": {
+      "component_id": "75:2",
+      "component_key": "71d4ae5de6be658728f36f0d2d603cda924d996a"
+    },
+    "ScheduleRow": {
+      "component_id": "75:7",
+      "component_key": "cf199c7a35b644b80692743eb0de8aa701ab112a"
+    },
+    "HeroSection": {
+      "component_id": "75:13",
+      "component_key": "3c57945f889f2abbef39f0df4769d67b25b4d51c"
+    },
+    "Container": {
+      "component_id": "77:2",
+      "component_key": "56f5fb18d6ef1411421100ac4f2c119649085321"
+    },
+    "SectionWrapper": {
+      "component_id": "77:5",
+      "component_key": "2c037b2db816f1c711d42e25f2ce5d152e9a054a"
+    },
+    "TabGroup": {
+      "component_id": "87:2",
+      "component_key": "b906c5fa40526f0438d4e349f3a416bcba9a7b1e"
+    },
+    "CTABanner": {
+      "component_id": "92:2",
+      "component_key": "7c6cf2e8935800e69e825545095db073338fecaf"
+    },
+    "TextareaField": {
+      "component_id": "88:6",
+      "component_key": "ac594c53a75a3b183fbac39049b3611bd75fe24d"
+    },
+    "SelectField": {
+      "component_id": "91:7",
+      "component_key": "753a232017c66aae0c45475f63bf1034f3a787f7"
+    },
+    "ImageContainer": {
+      "component_id": "94:4",
+      "component_key": "6f2ab0b023211bd14b9299dcf49339ec85d15c62"
+    },
+    "StatBlock": {
+      "component_id": "89:2",
+      "component_key": "9a81aea6fd2309522ee49c2ea20a08ebcc9d0c56"
+    },
+    "GeometricAccent": {
+      "component_id": "93:2",
+      "component_key": "cc6f7c1c996d869c675dbf3f960d223ec1777767"
+    }
+  },
+  "effect_styles": {
+    "Card/Hover Glow": "S:326be9c76ac5f395bb908f15527e99d3b1ae6942,",
+    "Card/Rest Shadow": "S:3aaed784c75a5d6997c554ea143504136b68d960,"
+  },
+  "radii_tokens": {
+    "sm": 6,
+    "md": 8,
+    "lg": 12,
+    "xl": 16
+  }
+}

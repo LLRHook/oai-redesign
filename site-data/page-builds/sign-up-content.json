@@ -1,0 +1,65 @@
+{
+  "slug": "sign-up",
+  "url": "https://www.oaiconference.com/sign-up",
+  "title": "Signup | Optimized AI Conference",
+  "content": {
+    "nav_items": [
+      {"text": "Home", "href": "https://www.oaiconference.com"},
+      {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+      {"text": "Program", "href": "https://www.oaiconference.com/program"},
+      {"text": "Speakers", "href": "https://www.oaiconference.com/speakers"},
+      {"text": "Registration", "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"},
+      {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers"}
+    ],
+    "headings": [
+      {"level": 1, "text": "Sign up for access to all talks from our last Conference"}
+    ],
+    "body_text": [
+      {"section": "Hero / Call to Action", "text": "Sign up for access to all talks from our last Conference"},
+      {"section": "Talk Thumbnails (visual)", "text": "The page displays 6 talk thumbnail images from the previous conference with speaker names and talk titles overlaid: AI for Coding (Chip Huyen), Building Enterprise Multi-Agent Communications (Jake Mannix), Self Optimizing Agents for Deep Research (Jakub Zavrel), What's New and What's Next for Generative AI? (Paige Bailey), Deploying Agents in Enterprise (panel), AI Knowledge Layer for Agents (Philip Rathle)"}
+    ],
+    "buttons": [
+      {"text": "Submit", "href": "", "context": "Email signup form"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers", "context": "header navigation"}
+    ],
+    "event_details": {},
+    "form_fields": [
+      {"label": "Email", "type": "email", "placeholder": "Enter your email"}
+    ],
+    "links": [
+      {"text": "Hamza Farooq", "href": "https://www.linkedin.com/in/hamzafarooq/"},
+      {"text": "Home", "href": "https://www.oaiconference.com"},
+      {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+      {"text": "Program", "href": "https://www.oaiconference.com/program"},
+      {"text": "Speakers", "href": "https://www.oaiconference.com/speakers"},
+      {"text": "Registration", "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"},
+      {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers"}
+    ],
+    "footer": {
+      "text": "Content: Home, Program, Speakers, Workshops, Registration, Contact Us. Workshops: How to use OpenClaw, Mastering Agentic Coding, Context Engineering with Redis & Langchain, Optimizing Training & Inference, Optimizing Agentic RAG, Multi Agent Architecture, Trustworthy Agentic AI, Building an AI-Native Career, Production Ready Agentic AI Systems. © Optimized AI Conference 2026",
+      "links": [
+        {"text": "+1 (641) 455-6100", "href": "tel:+1 (641) 455-6100"},
+        {"text": "Home", "href": "https://www.oaiconference.com/home-archive"},
+        {"text": "Program", "href": "https://www.oaiconference.com/program"},
+        {"text": "Speakers", "href": "https://www.oaiconference.com/speakers-archive"},
+        {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+        {"text": "Registration", "href": "https://www.oaiconference.com/event-list"},
+        {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+        {"text": "How to use OpenClaw", "href": "https://www.oaiconference.com/openclaw"},
+        {"text": "Mastering Agentic Coding", "href": "https://www.oaiconference.com/master-agentic-coding"},
+        {"text": "Context Engineering with Redis & Langchain", "href": "https://www.oaiconference.com/context-engineering"},
+        {"text": "Optimizing Training & Inference", "href": "https://www.oaiconference.com/optimize-llm-performance"},
+        {"text": "Optimizing Agentic RAG", "href": "https://www.oaiconference.com/multi-agent"},
+        {"text": "Multi Agent Architecture", "href": "https://www.oaiconference.com/multi-agent"},
+        {"text": "Trustworthy Agentic AI", "href": "https://www.oaiconference.com/trustworthy-agents"},
+        {"text": "Building an AI-Native Career", "href": "https://www.oaiconference.com/ai-career"},
+        {"text": "Production Ready Agentic AI Systems", "href": "https://www.oaiconference.com/production-agents"}
+      ]
+    },
+    "metadata": {
+      "description": "The Optimized AI Conference ensures a harassment-free space, banning offensive behavior or content. Violators face removal. Support is available for concerns."
+    }
+  }
+}

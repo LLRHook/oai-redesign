@@ -1,0 +1,42 @@
+{
+  "$schema": "audit-v1",
+  "audited_at": "2026-04-02T18:05:00Z",
+  "figma_file_key": "H0BdGnAtkzZbKDvlVf2GDt",
+  "file_name": "OAI Conference — Site Redesign Reference",
+  "pages": [
+    {
+      "id": "1:24",
+      "name": "Master",
+      "frame_count": 17,
+      "has_screenshots": true,
+      "notes": "Contains 17 deduplicated screenshot frames from earlier capture + section labels/dividers. Frames are screenshot-sized (1280px wide, varying heights). Has prototype reactions from earlier wiring."
+    },
+    {
+      "id": "60:2",
+      "name": "Reference",
+      "frame_count": 0,
+      "has_screenshots": false,
+      "notes": "Created by user for reference screenshots. May still be syncing. Local screenshots available in site-data/screenshots/ as fallback."
+    }
+  ],
+  "existing_components": [],
+  "existing_styles": {
+    "paint_styles": [],
+    "text_styles": [],
+    "effect_styles": []
+  },
+  "existing_variables": [],
+  "assessment": {
+    "file_writable": true,
+    "screenshots_available": true,
+    "screenshots_location": "Master page (17 frames) + local site-data/screenshots/ (33 files)",
+    "has_existing_design_system": false,
+    "cleanup_needed": false,
+    "notes": [
+      "Clean slate — no components, styles, or variables exist yet",
+      "Master page has earlier screenshot sitemap that can be preserved as reference",
+      "New prototype pages will be created fresh alongside Master",
+      "17 unique pages identified from 33 screenshots (16 were redirect duplicates)"
+    ]
+  }
+}

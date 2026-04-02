@@ -1,0 +1,402 @@
+{
+  "slug": "production-agents",
+  "url": "https://www.oaiconference.com/production-agents",
+  "title": "Production-ready Agentic AI Systems",
+  "scraped_at": "2026-04-02",
+  "content": {
+    "nav_items": [
+      {
+        "text": "Home",
+        "href": "https://www.oaiconference.com"
+      },
+      {
+        "text": "Workshops",
+        "href": "https://www.oaiconference.com/workshops-2026"
+      },
+      {
+        "text": "Program",
+        "href": "https://www.oaiconference.com/program"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.oaiconference.com/speakers"
+      },
+      {
+        "text": "Registration",
+        "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.oaiconference.com/contact-us"
+      }
+    ],
+    "workshop_subnav": [
+      {
+        "text": "Production Ready Agentic AI Systems",
+        "href": "https://www.oaiconference.com/production-agents"
+      },
+      {
+        "text": "How to use OpenClaw",
+        "href": "https://www.oaiconference.com/openclaw"
+      },
+      {
+        "text": "Context Engineering",
+        "href": "https://www.oaiconference.com/context-engineering"
+      },
+      {
+        "text": "Building an AI-Native Career",
+        "href": "https://www.oaiconference.com/ai-career"
+      },
+      {
+        "text": "Mastering GPUs & Agentic Coding",
+        "href": "https://www.oaiconference.com/master-agentic-coding"
+      },
+      {
+        "text": "Multi Agent Architecture",
+        "href": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "text": "Optimizing LLM Training and Inference",
+        "href": "https://www.oaiconference.com/optimize-llm-performance"
+      },
+      {
+        "text": "Trustworthy Agentic AI",
+        "href": "https://www.oaiconference.com/trustworthy-agents"
+      },
+      {
+        "text": "Optimizing Retrieval for Agentic Systems",
+        "href": "https://www.oaiconference.com/agent-retrieval"
+      },
+      {
+        "text": "Talks",
+        "href": "https://www.oaiconference.com/talks"
+      },
+      {
+        "text": "About",
+        "href": "https://www.oaiconference.com/about"
+      },
+      {
+        "text": "Code of Conduct",
+        "href": "https://www.oaiconference.com/code-of-conduct"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://www.oaiconference.com/gallery"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Build Production-ready, Agentic AI Systems in a few lines of code using the open source Strands Agents SDK"
+      },
+      {
+        "level": 2,
+        "text": "Jonathan Vogel"
+      },
+      {
+        "level": 5,
+        "text": "Developer Advocate - AWS"
+      },
+      {
+        "level": 2,
+        "text": "Workshop Overview"
+      },
+      {
+        "level": 2,
+        "text": "Time and Location"
+      },
+      {
+        "level": 5,
+        "text": "March 31, 2026"
+      },
+      {
+        "level": 5,
+        "text": "11:30 am - 1:00 pm"
+      },
+      {
+        "level": 5,
+        "text": "Cobb Galleria"
+      },
+      {
+        "level": 2,
+        "text": "Workshop Requirements"
+      },
+      {
+        "level": 2,
+        "text": "Content"
+      },
+      {
+        "level": 2,
+        "text": "Workshops"
+      }
+    ],
+    "body_text": [
+      {
+        "section": "title",
+        "text": "Build Production-ready, Agentic AI Systems in a few lines of code using the open source Strands Agents SDK"
+      },
+      {
+        "section": "description",
+        "text": "[1.5 Hours] Learn to build AI agents for real-world apps using Strands SDK. Strands simplifies agent development by leveraging state of the art models to plan, chain thoughts and call tools. In this workshop, you will gain hands-on experience creating agents across diverse use cases."
+      },
+      {
+        "section": "speaker_name",
+        "text": "Jonathan Vogel"
+      },
+      {
+        "section": "speaker_title",
+        "text": "Developer Advocate - AWS"
+      },
+      {
+        "section": "speaker_bio",
+        "text": "Jonathan is a Developer Advocate at AWS. Jonathan’s been doing all things automation and developer productivity at AWS since 2020. Prior to AWS, he practiced professional software development for over a decade. Jonathan enjoys music, birding and climbing rocks."
+      },
+      {
+        "section": "workshop_overview",
+        "text": "About This Workshop\nAI agents are moving from demos to production and getting there means more than just calling an LLM. In this hands-on workshop, you'll build AI agents using the open source Strands Agents SDK, the same framework used internally for production agentic systems at Amazon.\nStrands is a model-driven framework that lets state-of-the-art models handle the reasoning, planning, and tool use so you can focus on what your agent actually does.\nYou'll start by building a working agent in just a few lines of Python, then progressively layer in real-world capabilities like connecting your agent to external tools. Along the way, you'll see how Strands agents scale from a local prototype to a cloud-deployed system.\nWhat You'll Walk Away With\nHands-on experience building agents that plan, reason, and call tools autonomously\nAn understanding of how Strands lets the LLM drive planning and tool selection, so you write less orchestration code\nThe ability to extend your agent's capabilities by connecting it to external tools\nAwareness of deployment paths from prototype to production on AWS\nRequirements\nLaptop with a modern browser and internet access\nSome Python familiarity preferred, but not required\nNo prior agent development experience required"
+      },
+      {
+        "section": "time_and_location",
+        "text": "March 31, 2026\n11:30 am - 1:00 pm\nCobb Galleria"
+      },
+      {
+        "section": "who_should_attend",
+        "text": "Developers and AI practitioners looking to build agents"
+      },
+      {
+        "section": "who_should_attend",
+        "text": "Engineers evaluating agent frameworks for production use cases"
+      },
+      {
+        "section": "who_should_attend",
+        "text": "Anyone curious about how open source tooling can simplify agentic AI development"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Call for Speakers",
+        "href": "https://www.oaiconference.com/call-for-speakers"
+      },
+      {
+        "text": "Strands SDK",
+        "href": "https://strandsagents.com/?trk=23ae1f57-152e-4145-9aa7-04a603514f54&sc_channel=el"
+      },
+      {
+        "text": "Prod",
+        "href": "https://www.oaiconference.com/production-agents"
+      }
+    ],
+    "speaker": {
+      "name": "Jonathan Vogel",
+      "title": "Developer Advocate - AWS",
+      "company": "",
+      "bio": "Jonathan is a Developer Advocate at AWS. Jonathan’s been doing all things automation and developer productivity at AWS since 2020. Prior to AWS, he practiced professional software development for over a decade. Jonathan enjoys music, birding and climbing rocks.",
+      "image_url": "https://static.wixstatic.com/media/88c32d_e2b794bf13d041039a6a3d3ae3af7453~mv2.png"
+    },
+    "workshop_details": {
+      "date": "March 31, 2026",
+      "time": "11:30 am - 1:00 pm",
+      "location": "Cobb Galleria",
+      "duration": "1.5 hours"
+    },
+    "requirements": {
+      "who_should_attend": [
+        "Developers and AI practitioners looking to build agents",
+        "Engineers evaluating agent frameworks for production use cases",
+        "Anyone curious about how open source tooling can simplify agentic AI development"
+      ],
+      "who_should_not": [],
+      "prerequisites": []
+    },
+    "links": [
+      {
+        "text": "Home",
+        "href": "https://www.oaiconference.com"
+      },
+      {
+        "text": "Workshops",
+        "href": "https://www.oaiconference.com/workshops-2026"
+      },
+      {
+        "text": "Program",
+        "href": "https://www.oaiconference.com/program"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.oaiconference.com/speakers"
+      },
+      {
+        "text": "Registration",
+        "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.oaiconference.com/contact-us"
+      },
+      {
+        "text": "Call for Speakers",
+        "href": "https://www.oaiconference.com/call-for-speakers"
+      },
+      {
+        "text": "Strands SDK",
+        "href": "https://strandsagents.com/?trk=23ae1f57-152e-4145-9aa7-04a603514f54&sc_channel=el"
+      },
+      {
+        "text": "Jonathan Vogel",
+        "href": "https://www.linkedin.com/in/jonathan-vogel-sw/"
+      },
+      {
+        "text": "Home",
+        "href": "https://www.oaiconference.com/home-archive"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.oaiconference.com/speakers-archive"
+      },
+      {
+        "text": "Registration",
+        "href": "https://www.oaiconference.com/event-list"
+      },
+      {
+        "text": "How to use OpenClaw",
+        "href": "https://www.oaiconference.com/openclaw"
+      },
+      {
+        "text": "Mastering Agentic Coding",
+        "href": "https://www.oaiconference.com/master-agentic-coding"
+      },
+      {
+        "text": "Context Engineering with Redis & Langchain",
+        "href": "https://www.oaiconference.com/context-engineering"
+      },
+      {
+        "text": "Optimizing Training & Inference",
+        "href": "https://www.oaiconference.com/optimize-llm-performance"
+      },
+      {
+        "text": "Optimizing Agentic RAG",
+        "href": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "text": "Multi Agent Architecture",
+        "href": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "text": "Trustworthy Agentic AI",
+        "href": "https://www.oaiconference.com/trustworthy-agents"
+      },
+      {
+        "text": "Building an AI-Native Career",
+        "href": "https://www.oaiconference.com/ai-career"
+      },
+      {
+        "text": "Prod",
+        "href": "https://www.oaiconference.com/production-agents"
+      },
+      {
+        "text": "Program",
+        "href": "https://www.oaiconference.com/talks"
+      },
+      {
+        "text": "Talks",
+        "href": "https://www.oaiconference.com/talks"
+      },
+      {
+        "text": "About",
+        "href": "https://www.oaiconference.com/about"
+      },
+      {
+        "text": "Code of Conduct",
+        "href": "https://www.oaiconference.com/code-of-conduct"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://www.oaiconference.com/gallery"
+      }
+    ],
+    "footer": {
+      "text": "Content\n\nHome\n\nProgram\n\nSpeakers\n\nWorkshops\n\nRegistration\n\nContact Us\n\nWorkshops\n\nHow to use OpenClaw\n\nMastering Agentic Coding\n\nContext Engineering with Redis & Langchain\n\nOptimizing Training & Inference\n\nOptimizing Agentic RAG\n\nMulti Agent Architecture\n\nTrustworthy Agentic AI\n\nBuilding an AI-Native Career\n\nProduction Ready Agentic AI Systems\n\n© Optimized AI Conference 2026",
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.oaiconference.com"
+        },
+        {
+          "text": "Workshops",
+          "href": "https://www.oaiconference.com/workshops-2026"
+        },
+        {
+          "text": "Program",
+          "href": "https://www.oaiconference.com/program"
+        },
+        {
+          "text": "Speakers",
+          "href": "https://www.oaiconference.com/speakers"
+        },
+        {
+          "text": "Registration",
+          "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.oaiconference.com/contact-us"
+        },
+        {
+          "text": "How to use OpenClaw",
+          "href": "https://www.oaiconference.com/openclaw"
+        },
+        {
+          "text": "Mastering Agentic Coding",
+          "href": "https://www.oaiconference.com/master-agentic-coding"
+        },
+        {
+          "text": "Context Engineering with Redis & Langchain",
+          "href": "https://www.oaiconference.com/context-engineering"
+        },
+        {
+          "text": "Optimizing Training & Inference",
+          "href": "https://www.oaiconference.com/optimize-llm-performance"
+        },
+        {
+          "text": "Optimizing Agentic RAG",
+          "href": "https://www.oaiconference.com/multi-agent"
+        },
+        {
+          "text": "Multi Agent Architecture",
+          "href": "https://www.oaiconference.com/multi-agent"
+        },
+        {
+          "text": "Trustworthy Agentic AI",
+          "href": "https://www.oaiconference.com/trustworthy-agents"
+        },
+        {
+          "text": "Building an AI-Native Career",
+          "href": "https://www.oaiconference.com/ai-career"
+        },
+        {
+          "text": "Talks",
+          "href": "https://www.oaiconference.com/talks"
+        },
+        {
+          "text": "About",
+          "href": "https://www.oaiconference.com/about"
+        },
+        {
+          "text": "Code of Conduct",
+          "href": "https://www.oaiconference.com/code-of-conduct"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://www.oaiconference.com/gallery"
+        }
+      ],
+      "address": "23 Lilac Dr, Warren, NJ 07059",
+      "phone": "+1 (641) 455-6100",
+      "copyright": "© Optimized AI Conference 2026"
+    },
+    "metadata": {
+      "description": "1.5-Hour Workshop: Learn to build AI agents for real-world apps using Strands SDK. Strands simplifies agent development by leveraging state of the art models to plan, chain thoughts and call tools. In this workshop, you will gain hands-on experience creating agents across diverse use cases.",
+      "og_title": "Building and Deploying AI Agent Systems | OAI"
+    }
+  }
+}

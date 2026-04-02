@@ -1,0 +1,72 @@
+{
+  "slug": "event-global-virtual",
+  "url": "https://www.oaiconference.com/event-details/optimized-ai-conference-global-virtual-event",
+  "title": "Optimized AI Conference (Global Virtual Event) | OAI Conference",
+  "content": {
+    "nav_items": [
+      {"text": "Home", "href": "https://www.oaiconference.com"},
+      {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+      {"text": "Program", "href": "https://www.oaiconference.com/program"},
+      {"text": "Speakers", "href": "https://www.oaiconference.com/speakers"},
+      {"text": "Registration", "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"},
+      {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers"}
+    ],
+    "headings": [
+      {"level": 1, "text": "Optimized AI Conference (Global Virtual Event)"},
+      {"level": 2, "text": "Time & Location"},
+      {"level": 2, "text": "Share this event"},
+      {"level": 2, "text": "Join our newsletter"}
+    ],
+    "body_text": [
+      {"section": "Event Header", "text": "Optimized AI Conference (Global Virtual Event)"},
+      {"section": "Event Header - Date/Venue", "text": "Wed, Oct 29 | Virtual Event"},
+      {"section": "Time & Location", "text": "Oct 29, 2025, 12:00 PM - 5:00 PM EDT"},
+      {"section": "Time & Location - Venue", "text": "Virtual Event"},
+      {"section": "Newsletter", "text": "Subscribe to our newsletter and get notified for future events."}
+    ],
+    "buttons": [
+      {"text": "Submit", "href": "", "context": "Newsletter subscription"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers", "context": "header navigation"}
+    ],
+    "event_details": {
+      "name": "Optimized AI Conference (Global Virtual Event)",
+      "date": "Oct 29, 2025",
+      "time": "12:00 PM - 5:00 PM EDT",
+      "location": "Virtual Event",
+      "tickets": []
+    },
+    "form_fields": [
+      {"label": "Email", "type": "email", "placeholder": "Enter your email"}
+    ],
+    "links": [
+      {"text": "Share event on Facebook", "href": "https://www.facebook.com/sharer/sharer.php?u=https://www.oaiconference.com/event-details/optimized-ai-conference-global-virtual-event"},
+      {"text": "Share event on X", "href": "https://twitter.com/intent/tweet?url=https://www.oaiconference.com/event-details/optimized-ai-conference-global-virtual-event"},
+      {"text": "Share event on LinkedIn", "href": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.oaiconference.com%2Fevent-details%2Foptimized-ai-conference-global-virtual-event"}
+    ],
+    "footer": {
+      "text": "Content: Home, Speakers, Workshops, Program, Contact Us. Workshops. Join our newsletter: Subscribe to our newsletter and get notified for future events. © Optimized AI Conference 2024. Registration. Content: Home, Program, Speakers, Workshops, Registration, Contact Us. Workshops: How to use OpenClaw, Mastering Agentic Coding, Context Engineering with Redis & Langchain, Optimizing Training & Inference, Optimizing Agentic RAG, Multi Agent Architecture, Trustworthy Agentic AI, Building an AI-Native Career, Production Ready Agentic AI Systems. © Optimized AI Conference 2026",
+      "links": [
+        {"text": "+1 (641) 455-6100", "href": "tel:+1 (641) 455-6100"},
+        {"text": "Home", "href": "https://www.oaiconference.com/home-archive"},
+        {"text": "Program", "href": "https://www.oaiconference.com/program"},
+        {"text": "Speakers", "href": "https://www.oaiconference.com/speakers-archive"},
+        {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+        {"text": "Registration", "href": "https://www.oaiconference.com/event-list"},
+        {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+        {"text": "How to use OpenClaw", "href": "https://www.oaiconference.com/openclaw"},
+        {"text": "Mastering Agentic Coding", "href": "https://www.oaiconference.com/master-agentic-coding"},
+        {"text": "Context Engineering with Redis & Langchain", "href": "https://www.oaiconference.com/context-engineering"},
+        {"text": "Optimizing Training & Inference", "href": "https://www.oaiconference.com/optimize-llm-performance"},
+        {"text": "Optimizing Agentic RAG", "href": "https://www.oaiconference.com/multi-agent"},
+        {"text": "Multi Agent Architecture", "href": "https://www.oaiconference.com/multi-agent"},
+        {"text": "Trustworthy Agentic AI", "href": "https://www.oaiconference.com/trustworthy-agents"},
+        {"text": "Building an AI-Native Career", "href": "https://www.oaiconference.com/ai-career"},
+        {"text": "Production Ready Agentic AI Systems", "href": "https://www.oaiconference.com/production-agents"}
+      ]
+    },
+    "metadata": {
+      "description": ""
+    }
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "slug": "master-agentic-coding",
+  "url": "https://www.oaiconference.com/master-agentic-coding",
+  "title": "Mastering GPUs & Agentic Coding",
+  "scraped_at": "2026-04-02",
+  "content": {
+    "nav_items": [
+      {
+        "text": "Home",
+        "href": "https://www.oaiconference.com"
+      },
+      {
+        "text": "Workshops",
+        "href": "https://www.oaiconference.com/workshops-2026"
+      },
+      {
+        "text": "Program",
+        "href": "https://www.oaiconference.com/program"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.oaiconference.com/speakers"
+      },
+      {
+        "text": "Registration",
+        "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.oaiconference.com/contact-us"
+      }
+    ],
+    "workshop_subnav": [
+      {
+        "text": "Production Ready Agentic AI Systems",
+        "href": "https://www.oaiconference.com/production-agents"
+      },
+      {
+        "text": "How to use OpenClaw",
+        "href": "https://www.oaiconference.com/openclaw"
+      },
+      {
+        "text": "Context Engineering",
+        "href": "https://www.oaiconference.com/context-engineering"
+      },
+      {
+        "text": "Building an AI-Native Career",
+        "href": "https://www.oaiconference.com/ai-career"
+      },
+      {
+        "text": "Mastering GPUs & Agentic Coding",
+        "href": "https://www.oaiconference.com/master-agentic-coding"
+      },
+      {
+        "text": "Multi Agent Architecture",
+        "href": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "text": "Optimizing LLM Training and Inference",
+        "href": "https://www.oaiconference.com/optimize-llm-performance"
+      },
+      {
+        "text": "Trustworthy Agentic AI",
+        "href": "https://www.oaiconference.com/trustworthy-agents"
+      },
+      {
+        "text": "Optimizing Retrieval for Agentic Systems",
+        "href": "https://www.oaiconference.com/agent-retrieval"
+      },
+      {
+        "text": "Talks",
+        "href": "https://www.oaiconference.com/talks"
+      },
+      {
+        "text": "About",
+        "href": "https://www.oaiconference.com/about"
+      },
+      {
+        "text": "Code of Conduct",
+        "href": "https://www.oaiconference.com/code-of-conduct"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://www.oaiconference.com/gallery"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Mastering Agentic Coding & GPUs"
+      },
+      {
+        "level": 2,
+        "text": "Anton Alexander"
+      },
+      {
+        "level": 5,
+        "text": "Sr. GenAI Specialist for NVIDIA - AWS"
+      },
+      {
+        "level": 2,
+        "text": "Workshop Overview"
+      },
+      {
+        "level": 2,
+        "text": "Time and Location"
+      },
+      {
+        "level": 5,
+        "text": "March 31, 2026"
+      },
+      {
+        "level": 5,
+        "text": "1:15pm - 3:15pm"
+      },
+      {
+        "level": 5,
+        "text": "Cobb Galleria"
+      },
+      {
+        "level": 2,
+        "text": "Workshop Requirements"
+      },
+      {
+        "level": 2,
+        "text": "Content"
+      },
+      {
+        "level": 2,
+        "text": "Workshops"
+      }
+    ],
+    "body_text": [
+      {
+        "section": "title",
+        "text": "Mastering Agentic Coding & GPUs"
+      },
+      {
+        "section": "description",
+        "text": "Mastering Agentic Coding and GPUs is a hands-on, 2-hour workshop focused on building, deploying, and scaling production-ready agentic systems. Learn how to structure agentic coding workflows, ensure reliability and safety, and effectively use GPUs and Kubernetes to run agent-driven workloads from experimentation through production."
+      },
+      {
+        "section": "speaker_name",
+        "text": "Anton Alexander"
+      },
+      {
+        "section": "speaker_title",
+        "text": "Sr. GenAI Specialist for NVIDIA - AWS"
+      },
+      {
+        "section": "speaker_bio",
+        "text": "Anton Alexander is a Senior Specialist in Generative AI at AWS, focusing on scaling large training and inference workloads with AWS HyperPod. As a veteran CUDA programmer and Kubernetes expert, he helps enterprises integrate NVIDIA technologies for distributed training, specializing in EKS and Slurm implementations. Anton works closely with MENA Region and Government sector clients to optimize GenAI solutions. He holds a patent pending for machine learning edge computing systems. Outside work, Anton is a Brazilian jiu-jitsu and collegiate boxing champion who enjoys flying planes."
+      },
+      {
+        "section": "workshop_overview",
+        "text": "Part 1\n— Building Effective Agentic Coding Systems This section focuses on how to design and operate a production-ready agentic coding environment. We’ll cover how to plan projects for agent collaboration, develop unit tests that guide and constrain agent behavior, and set up CI/CD pipelines with best practices for safety and reliability. You’ll learn strategies for managing versions, overcoming content length limits in agent workflows, and evaluating agentic output for correctness and quality. We’ll also explore how agents interact with Kubernetes for orchestration and how to keep your code, data, and intellectual property secure when agents are writing and executing code.\nPart 2\n— Compute Foundations for Agentic Systems This section demystifies how modern compute especially GPUs power agentic systems at scale. We’ll explain how GPUs work, best practices for using them effectively, and practical paths for learning CUDA without getting lost in theory. You’ll see how GPUs integrate with Kubernetes, how to schedule and manage GPU workloads, and how to scale agent-driven workloads efficiently across clusters. The goal is to give you a mental model for matching agentic workloads to the right compute architecture as systems grow from experimentation to production."
+      },
+      {
+        "section": "time_and_location",
+        "text": "March 31, 2026\n1:15pm - 3:15pm\nCobb Galleria"
+      },
+      {
+        "section": "who_should_attend",
+        "text": "AI practitioners and researchers."
+      },
+      {
+        "section": "who_should_attend",
+        "text": "Developers seeking to transition into advanced agent-building roles."
+      },
+      {
+        "section": "who_should_attend",
+        "text": "Organizations looking to implement custom AI solutions."
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Call for Speakers",
+        "href": "https://www.oaiconference.com/call-for-speakers"
+      },
+      {
+        "text": "Prod",
+        "href": "https://www.oaiconference.com/production-agents"
+      }
+    ],
+    "speaker": {
+      "name": "Anton Alexander",
+      "title": "Sr. GenAI Specialist for NVIDIA - AWS",
+      "company": "",
+      "bio": "Anton Alexander is a Senior Specialist in Generative AI at AWS, focusing on scaling large training and inference workloads with AWS HyperPod. As a veteran CUDA programmer and Kubernetes expert, he helps enterprises integrate NVIDIA technologies for distributed training, specializing in EKS and Slurm implementations. Anton works closely with MENA Region and Government sector clients to optimize GenAI solutions. He holds a patent pending for machine learning edge computing systems. Outside work, Anton is a Brazilian jiu-jitsu and collegiate boxing champion who enjoys flying planes.",
+      "image_url": "https://static.wixstatic.com/media/95462a_dca2587dc5f04f639217cfb541f632cc~mv2.png"
+    },
+    "workshop_details": {
+      "date": "March 31, 2026",
+      "time": "1:15pm - 3:15pm",
+      "location": "Cobb Galleria",
+      "duration": "2 hours"
+    },
+    "requirements": {
+      "who_should_attend": [
+        "AI practitioners and researchers.",
+        "Developers seeking to transition into advanced agent-building roles.",
+        "Organizations looking to implement custom AI solutions."
+      ],
+      "who_should_not": [],
+      "prerequisites": []
+    },
+    "links": [
+      {
+        "text": "Home",
+        "href": "https://www.oaiconference.com"
+      },
+      {
+        "text": "Workshops",
+        "href": "https://www.oaiconference.com/workshops-2026"
+      },
+      {
+        "text": "Program",
+        "href": "https://www.oaiconference.com/program"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.oaiconference.com/speakers"
+      },
+      {
+        "text": "Registration",
+        "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.oaiconference.com/contact-us"
+      },
+      {
+        "text": "Call for Speakers",
+        "href": "https://www.oaiconference.com/call-for-speakers"
+      },
+      {
+        "text": "Anton Alexander",
+        "href": "https://www.linkedin.com/in/antonalexander/"
+      },
+      {
+        "text": "Home",
+        "href": "https://www.oaiconference.com/home-archive"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.oaiconference.com/speakers-archive"
+      },
+      {
+        "text": "Registration",
+        "href": "https://www.oaiconference.com/event-list"
+      },
+      {
+        "text": "How to use OpenClaw",
+        "href": "https://www.oaiconference.com/openclaw"
+      },
+      {
+        "text": "Mastering Agentic Coding",
+        "href": "https://www.oaiconference.com/master-agentic-coding"
+      },
+      {
+        "text": "Context Engineering with Redis & Langchain",
+        "href": "https://www.oaiconference.com/context-engineering"
+      },
+      {
+        "text": "Optimizing Training & Inference",
+        "href": "https://www.oaiconference.com/optimize-llm-performance"
+      },
+      {
+        "text": "Optimizing Agentic RAG",
+        "href": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "text": "Multi Agent Architecture",
+        "href": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "text": "Trustworthy Agentic AI",
+        "href": "https://www.oaiconference.com/trustworthy-agents"
+      },
+      {
+        "text": "Building an AI-Native Career",
+        "href": "https://www.oaiconference.com/ai-career"
+      },
+      {
+        "text": "Prod",
+        "href": "https://www.oaiconference.com/production-agents"
+      },
+      {
+        "text": "Program",
+        "href": "https://www.oaiconference.com/talks"
+      },
+      {
+        "text": "Mastering GPUs & Agentic Coding",
+        "href": "https://www.oaiconference.com/master-agentic-coding"
+      },
+      {
+        "text": "Talks",
+        "href": "https://www.oaiconference.com/talks"
+      },
+      {
+        "text": "About",
+        "href": "https://www.oaiconference.com/about"
+      },
+      {
+        "text": "Code of Conduct",
+        "href": "https://www.oaiconference.com/code-of-conduct"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://www.oaiconference.com/gallery"
+      }
+    ],
+    "footer": {
+      "text": "Content\n\nHome\n\nProgram\n\nSpeakers\n\nWorkshops\n\nRegistration\n\nContact Us\n\nWorkshops\n\nHow to use OpenClaw\n\nMastering Agentic Coding\n\nContext Engineering with Redis & Langchain\n\nOptimizing Training & Inference\n\nOptimizing Agentic RAG\n\nMulti Agent Architecture\n\nTrustworthy Agentic AI\n\nBuilding an AI-Native Career\n\nProduction Ready Agentic AI Systems\n\n© Optimized AI Conference 2026",
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.oaiconference.com"
+        },
+        {
+          "text": "Workshops",
+          "href": "https://www.oaiconference.com/workshops-2026"
+        },
+        {
+          "text": "Program",
+          "href": "https://www.oaiconference.com/program"
+        },
+        {
+          "text": "Speakers",
+          "href": "https://www.oaiconference.com/speakers"
+        },
+        {
+          "text": "Registration",
+          "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.oaiconference.com/contact-us"
+        },
+        {
+          "text": "How to use OpenClaw",
+          "href": "https://www.oaiconference.com/openclaw"
+        },
+        {
+          "text": "Mastering Agentic Coding",
+          "href": "https://www.oaiconference.com/master-agentic-coding"
+        },
+        {
+          "text": "Context Engineering with Redis & Langchain",
+          "href": "https://www.oaiconference.com/context-engineering"
+        },
+        {
+          "text": "Optimizing Training & Inference",
+          "href": "https://www.oaiconference.com/optimize-llm-performance"
+        },
+        {
+          "text": "Optimizing Agentic RAG",
+          "href": "https://www.oaiconference.com/multi-agent"
+        },
+        {
+          "text": "Multi Agent Architecture",
+          "href": "https://www.oaiconference.com/multi-agent"
+        },
+        {
+          "text": "Trustworthy Agentic AI",
+          "href": "https://www.oaiconference.com/trustworthy-agents"
+        },
+        {
+          "text": "Building an AI-Native Career",
+          "href": "https://www.oaiconference.com/ai-career"
+        },
+        {
+          "text": "Talks",
+          "href": "https://www.oaiconference.com/talks"
+        },
+        {
+          "text": "About",
+          "href": "https://www.oaiconference.com/about"
+        },
+        {
+          "text": "Code of Conduct",
+          "href": "https://www.oaiconference.com/code-of-conduct"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://www.oaiconference.com/gallery"
+        }
+      ],
+      "address": "23 Lilac Dr, Warren, NJ 07059",
+      "phone": "+1 (641) 455-6100",
+      "copyright": "© Optimized AI Conference 2026"
+    },
+    "metadata": {
+      "description": "2-Hour Workshop: Mastering Agentic Coding and GPUs — Learn how to design production-ready agentic coding systems, from project planning and agent-guided testing to CI/CD, security, and Kubernetes orchestration. This hands-on session also covers GPU fundamentals for agentic workloads, including CUDA learning paths, GPU scheduling with Kubernetes, and scaling agent-driven systems from experimentation to production.",
+      "og_title": "Building and Deploying AI Agent Systems | OAI"
+    }
+  }
+}

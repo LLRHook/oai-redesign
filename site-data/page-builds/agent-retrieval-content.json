@@ -1,0 +1,415 @@
+{
+  "slug": "agent-retrieval",
+  "url": "https://www.oaiconference.com/agent-retrieval",
+  "title": "Optimizing Retrieval for Agentic Systems",
+  "scraped_at": "2026-04-02",
+  "content": {
+    "nav_items": [
+      {
+        "text": "Home",
+        "href": "https://www.oaiconference.com"
+      },
+      {
+        "text": "Workshops",
+        "href": "https://www.oaiconference.com/workshops-2026"
+      },
+      {
+        "text": "Program",
+        "href": "https://www.oaiconference.com/program"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.oaiconference.com/speakers"
+      },
+      {
+        "text": "Registration",
+        "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.oaiconference.com/contact-us"
+      }
+    ],
+    "workshop_subnav": [
+      {
+        "text": "Production Ready Agentic AI Systems",
+        "href": "https://www.oaiconference.com/production-agents"
+      },
+      {
+        "text": "How to use OpenClaw",
+        "href": "https://www.oaiconference.com/openclaw"
+      },
+      {
+        "text": "Context Engineering",
+        "href": "https://www.oaiconference.com/context-engineering"
+      },
+      {
+        "text": "Building an AI-Native Career",
+        "href": "https://www.oaiconference.com/ai-career"
+      },
+      {
+        "text": "Mastering GPUs & Agentic Coding",
+        "href": "https://www.oaiconference.com/master-agentic-coding"
+      },
+      {
+        "text": "Multi Agent Architecture",
+        "href": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "text": "Optimizing LLM Training and Inference",
+        "href": "https://www.oaiconference.com/optimize-llm-performance"
+      },
+      {
+        "text": "Trustworthy Agentic AI",
+        "href": "https://www.oaiconference.com/trustworthy-agents"
+      },
+      {
+        "text": "Optimizing Retrieval for Agentic Systems",
+        "href": "https://www.oaiconference.com/agent-retrieval"
+      },
+      {
+        "text": "Talks",
+        "href": "https://www.oaiconference.com/talks"
+      },
+      {
+        "text": "About",
+        "href": "https://www.oaiconference.com/about"
+      },
+      {
+        "text": "Code of Conduct",
+        "href": "https://www.oaiconference.com/code-of-conduct"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://www.oaiconference.com/gallery"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Optimizing Retrieval for Agentic Systems"
+      },
+      {
+        "level": 2,
+        "text": "Trey Grainger"
+      },
+      {
+        "level": 5,
+        "text": "Founder & CEO, Searchkernel | Author, AI-Powered Search | Ex-Lucidworks, Presearch, & CareerBuilder | Adjunct Professor at Furman University"
+      },
+      {
+        "level": 2,
+        "text": "Workshop Overview"
+      },
+      {
+        "level": 2,
+        "text": "Time and Location"
+      },
+      {
+        "level": 5,
+        "text": "March 31, 2026"
+      },
+      {
+        "level": 5,
+        "text": "3:15pm - 5:15pm"
+      },
+      {
+        "level": 5,
+        "text": "Cobb Galleria"
+      },
+      {
+        "level": 2,
+        "text": "Workshop Requirements"
+      },
+      {
+        "level": 2,
+        "text": "Content"
+      },
+      {
+        "level": 2,
+        "text": "Workshops"
+      }
+    ],
+    "body_text": [
+      {
+        "section": "title",
+        "text": "Optimizing Retrieval for Agentic Systems"
+      },
+      {
+        "section": "description",
+        "text": "In this workshop, you’ll learn the fundamental techniques and design patterns of modern AI-powered information retrieval. Agents (and LLMs in general) rely on RAG (retrieval augmented generation) to both prevent hallucination and to ground them in up-to-date knowledge of the given domain and memory of previous interactions. But 90% of the challenge with such systems comes from the quality of the RETRIEVAL part of RAG. In this workshop, we’ll cover how to think about and improve retrieval for modern AI and agentic systems. We’ll also introduce the emerging “agentic search” paradigm, with retrieval being coordinated by an Agent and modeled as a series of tool calls within a relevance feedback loop."
+      },
+      {
+        "section": "speaker_name",
+        "text": "Trey Grainger"
+      },
+      {
+        "section": "speaker_title",
+        "text": "Founder & CEO, Searchkernel | Author, AI-Powered Search | Ex-Lucidworks, Presearch, & CareerBuilder | Adjunct Professor at Furman University"
+      },
+      {
+        "section": "speaker_bio",
+        "text": "Trey Grainger is lead author of the book AI-Powered Search (Manning 2025) and instructor of Maven’s AI-Powered Search: Modern Retrieval for Humans & Agents course. He is the Founder & CEO of Searchkernel, a software consultancy building the next generation of AI-powered search. He also serves as a technical advisor at OpenSource Connections. He previously served as CTO of Presearch, a decentralized web search engine, and as Chief Algorithms Officer and SVP of Engineering at Lucidworks, a search company whose technology powers hundreds of the world’s leading organizations. Trey is also co-author of the book Solr in Action (Manning 2014), as well as over a dozen other publications including books, journals, and research papers. Trey has 18 years of experience in search and data science focused on building self-learning search platforms integrating the most successful AI Search techniques."
+      },
+      {
+        "section": "workshop_overview",
+        "text": "Part 1: Modern Retrieval Techniques\nThe first hour will be focused on the core mental models and techniques of modern AI Search. We’ll cover the fundamentals of information retrieval: Contextual relevance & ranking, sparse vector keyword search with BM25, dense vector semantic search with embeddings and bi-encoders, hybrid search, reflected intelligence from user interactions, machine learned ranking and cross-encoders, collaborative filtering and personalization, and multimodal and multi-vector search (late interaction).\nPart 2: Agentic Search, Query Understanding, and RAG\nThe second hour will extend the modern retrieval techniques specifically for agent-based search. Agentic search is an evolution of traditional search architecture to enable agent-driven relevance feedback loops during information retrieval. This can include leveraging LLMs to 1) interpret and improve query understanding, 2) call tools to execute queries, 3) assess the quality of the search results, and 4) potentially retry these steps multiple times until an optimal result is achieved. We’ll demonstrate this flow end-to-end and discuss how to improve the quality of your AI systems by integrating these modern retrieval techniques."
+      },
+      {
+        "section": "time_and_location",
+        "text": "March 31, 2026\n3:15pm - 5:15pm\nCobb Galleria"
+      },
+      {
+        "section": "who_should_attend",
+        "text": "Software Engineers, Data Scientists, and Technical Product Managers wanting to implement RAG or Agents needing retrieval tools."
+      },
+      {
+        "section": "who_should_attend",
+        "text": "Anyone wanting a survey of modern AI Search techniques (applicable to any search system, not just AI Agents)"
+      },
+      {
+        "section": "who_should_attend",
+        "text": "Search engineers looking to understand and implement agentic search"
+      },
+      {
+        "section": "who_should_attend",
+        "text": "AI engineers needing to optimize the retrieval part of their RAG systems"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Call for Speakers",
+        "href": "https://www.oaiconference.com/call-for-speakers"
+      },
+      {
+        "text": "AI-Powered Search",
+        "href": "https://aipoweredsearch.com/"
+      },
+      {
+        "text": "AI-Powered Search: Modern Retrieval for Humans & Agents",
+        "href": "https://aipoweredsearch.com/live-course"
+      },
+      {
+        "text": "Prod",
+        "href": "https://www.oaiconference.com/production-agents"
+      }
+    ],
+    "speaker": {
+      "name": "Trey Grainger",
+      "title": "Founder & CEO, Searchkernel | Author, AI-Powered Search | Ex-Lucidworks, Presearch, & CareerBuilder | Adjunct Professor at Furman University",
+      "company": "",
+      "bio": "Trey Grainger is lead author of the book AI-Powered Search (Manning 2025) and instructor of Maven’s AI-Powered Search: Modern Retrieval for Humans & Agents course. He is the Founder & CEO of Searchkernel, a software consultancy building the next generation of AI-powered search. He also serves as a technical advisor at OpenSource Connections. He previously served as CTO of Presearch, a decentralized web search engine, and as Chief Algorithms Officer and SVP of Engineering at Lucidworks, a search company whose technology powers hundreds of the world’s leading organizations. Trey is also co-author of the book Solr in Action (Manning 2014), as well as over a dozen other publications including books, journals, and research papers. Trey has 18 years of experience in search and data science focused on building self-learning search platforms integrating the most successful AI Search techniques.",
+      "image_url": "https://static.wixstatic.com/media/95462a_9967f4ab71444c299ee8d20962b10ff0~mv2.png"
+    },
+    "workshop_details": {
+      "date": "March 31, 2026",
+      "time": "3:15pm - 5:15pm",
+      "location": "Cobb Galleria",
+      "duration": "2 hours"
+    },
+    "requirements": {
+      "who_should_attend": [
+        "Software Engineers, Data Scientists, and Technical Product Managers wanting to implement RAG or Agents needing retrieval tools.",
+        "Anyone wanting a survey of modern AI Search techniques (applicable to any search system, not just AI Agents)",
+        "Search engineers looking to understand and implement agentic search",
+        "AI engineers needing to optimize the retrieval part of their RAG systems"
+      ],
+      "who_should_not": [],
+      "prerequisites": []
+    },
+    "links": [
+      {
+        "text": "Home",
+        "href": "https://www.oaiconference.com"
+      },
+      {
+        "text": "Workshops",
+        "href": "https://www.oaiconference.com/workshops-2026"
+      },
+      {
+        "text": "Program",
+        "href": "https://www.oaiconference.com/program"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.oaiconference.com/speakers"
+      },
+      {
+        "text": "Registration",
+        "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.oaiconference.com/contact-us"
+      },
+      {
+        "text": "Call for Speakers",
+        "href": "https://www.oaiconference.com/call-for-speakers"
+      },
+      {
+        "text": "Trey Grainger",
+        "href": "https://www.linkedin.com/in/treygrainger/"
+      },
+      {
+        "text": "AI-Powered Search",
+        "href": "https://aipoweredsearch.com/"
+      },
+      {
+        "text": "AI-Powered Search: Modern Retrieval for Humans & Agents",
+        "href": "https://aipoweredsearch.com/live-course"
+      },
+      {
+        "text": "Home",
+        "href": "https://www.oaiconference.com/home-archive"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.oaiconference.com/speakers-archive"
+      },
+      {
+        "text": "Registration",
+        "href": "https://www.oaiconference.com/event-list"
+      },
+      {
+        "text": "How to use OpenClaw",
+        "href": "https://www.oaiconference.com/openclaw"
+      },
+      {
+        "text": "Mastering Agentic Coding",
+        "href": "https://www.oaiconference.com/master-agentic-coding"
+      },
+      {
+        "text": "Context Engineering with Redis & Langchain",
+        "href": "https://www.oaiconference.com/context-engineering"
+      },
+      {
+        "text": "Optimizing Training & Inference",
+        "href": "https://www.oaiconference.com/optimize-llm-performance"
+      },
+      {
+        "text": "Optimizing Agentic RAG",
+        "href": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "text": "Multi Agent Architecture",
+        "href": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "text": "Trustworthy Agentic AI",
+        "href": "https://www.oaiconference.com/trustworthy-agents"
+      },
+      {
+        "text": "Building an AI-Native Career",
+        "href": "https://www.oaiconference.com/ai-career"
+      },
+      {
+        "text": "Prod",
+        "href": "https://www.oaiconference.com/production-agents"
+      },
+      {
+        "text": "Program",
+        "href": "https://www.oaiconference.com/talks"
+      },
+      {
+        "text": "Talks",
+        "href": "https://www.oaiconference.com/talks"
+      },
+      {
+        "text": "About",
+        "href": "https://www.oaiconference.com/about"
+      },
+      {
+        "text": "Code of Conduct",
+        "href": "https://www.oaiconference.com/code-of-conduct"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://www.oaiconference.com/gallery"
+      }
+    ],
+    "footer": {
+      "text": "Content\n\nHome\n\nProgram\n\nSpeakers\n\nWorkshops\n\nRegistration\n\nContact Us\n\nWorkshops\n\nHow to use OpenClaw\n\nMastering Agentic Coding\n\nContext Engineering with Redis & Langchain\n\nOptimizing Training & Inference\n\nOptimizing Agentic RAG\n\nMulti Agent Architecture\n\nTrustworthy Agentic AI\n\nBuilding an AI-Native Career\n\nProduction Ready Agentic AI Systems\n\n© Optimized AI Conference 2026",
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.oaiconference.com"
+        },
+        {
+          "text": "Workshops",
+          "href": "https://www.oaiconference.com/workshops-2026"
+        },
+        {
+          "text": "Program",
+          "href": "https://www.oaiconference.com/program"
+        },
+        {
+          "text": "Speakers",
+          "href": "https://www.oaiconference.com/speakers"
+        },
+        {
+          "text": "Registration",
+          "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.oaiconference.com/contact-us"
+        },
+        {
+          "text": "How to use OpenClaw",
+          "href": "https://www.oaiconference.com/openclaw"
+        },
+        {
+          "text": "Mastering Agentic Coding",
+          "href": "https://www.oaiconference.com/master-agentic-coding"
+        },
+        {
+          "text": "Context Engineering with Redis & Langchain",
+          "href": "https://www.oaiconference.com/context-engineering"
+        },
+        {
+          "text": "Optimizing Training & Inference",
+          "href": "https://www.oaiconference.com/optimize-llm-performance"
+        },
+        {
+          "text": "Optimizing Agentic RAG",
+          "href": "https://www.oaiconference.com/multi-agent"
+        },
+        {
+          "text": "Multi Agent Architecture",
+          "href": "https://www.oaiconference.com/multi-agent"
+        },
+        {
+          "text": "Trustworthy Agentic AI",
+          "href": "https://www.oaiconference.com/trustworthy-agents"
+        },
+        {
+          "text": "Building an AI-Native Career",
+          "href": "https://www.oaiconference.com/ai-career"
+        },
+        {
+          "text": "Talks",
+          "href": "https://www.oaiconference.com/talks"
+        },
+        {
+          "text": "About",
+          "href": "https://www.oaiconference.com/about"
+        },
+        {
+          "text": "Code of Conduct",
+          "href": "https://www.oaiconference.com/code-of-conduct"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://www.oaiconference.com/gallery"
+        }
+      ],
+      "address": "23 Lilac Dr, Warren, NJ 07059",
+      "phone": "+1 (641) 455-6100",
+      "copyright": "© Optimized AI Conference 2026"
+    },
+    "metadata": {
+      "description": "In this workshop, you’ll learn the core techniques and design patterns behind modern AI-powered retrieval. Since the quality of RAG systems is driven largely by retrieval, we’ll focus on how to design and optimize retrieval for AI and agentic systems, and introduce agentic search, where agents coordinate retrieval through tool calls and relevance feedback loops.",
+      "og_title": "Building and Deploying AI Agent Systems | OAI"
+    }
+  }
+}

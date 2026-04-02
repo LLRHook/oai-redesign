@@ -1,0 +1,68 @@
+{
+  "slug": "code-of-conduct",
+  "url": "https://www.oaiconference.com/code-of-conduct",
+  "title": "Code of Conduct | Optimized AI Conference",
+  "content": {
+    "nav_items": [
+      {"text": "Home", "href": "https://www.oaiconference.com"},
+      {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+      {"text": "Program", "href": "https://www.oaiconference.com/program"},
+      {"text": "Speakers", "href": "https://www.oaiconference.com/speakers"},
+      {"text": "Registration", "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"},
+      {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers"}
+    ],
+    "headings": [
+      {"level": 1, "text": "Code of Conduct"}
+    ],
+    "body_text": [
+      {"section": "Code of Conduct - Introduction", "text": "All attendees, speakers, sponsors, and volunteers at our conference are required to agree with and follow the code of conduct."},
+      {"section": "Code of Conduct - Dedication", "text": "Optimized AI Conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender identity, sexual orientation, disability, physical appearance, body size, race, or religion."},
+      {"section": "Code of Conduct - No Tolerance", "text": "We do not tolerate harassment of conference participants in any form, and sexual language and imagery are not appropriate for any conference venue."},
+      {"section": "Code of Conduct - Definition of Harassment", "text": "Harassment includes offensive verbal comments, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Participants asked to stop any harassing behavior are expected to comply immediately."},
+      {"section": "Code of Conduct - Exhibitors and Sponsors", "text": "Exhibitors, Sponsors, and Speakers are also subject to the anti-harassment policy. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not wear sexualized clothing/uniforms/costumes or otherwise create a sexualized environment."},
+      {"section": "Code of Conduct - Consequences", "text": "If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of the conference staff immediately."},
+      {"section": "Code of Conduct - Staff Assistance", "text": "Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance."},
+      {"section": "Code of Conduct - Scope", "text": "We expect participants to follow these rules at all conference venues and conference-related social events."},
+      {"section": "Code of Conduct - Sign Off", "text": "Optimized AI Conference Team"}
+    ],
+    "buttons": [
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers", "context": "header navigation"}
+    ],
+    "event_details": {},
+    "form_fields": [],
+    "links": [
+      {"text": "Home", "href": "https://www.oaiconference.com"},
+      {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+      {"text": "Program", "href": "https://www.oaiconference.com/program"},
+      {"text": "Speakers", "href": "https://www.oaiconference.com/speakers"},
+      {"text": "Registration", "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"},
+      {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers"}
+    ],
+    "footer": {
+      "text": "23 Lilac Dr, Warren, NJ 07059 +1 (641) 455-6100 Content: Home, Program, Speakers, Workshops, Registration, Contact Us. Workshops: How to use OpenClaw, Mastering Agentic Coding, Context Engineering with Redis & Langchain, Optimizing Training & Inference, Optimizing Agentic RAG, Multi Agent Architecture, Trustworthy Agentic AI, Building an AI-Native Career, Production Ready Agentic AI Systems. © Optimized AI Conference 2026",
+      "links": [
+        {"text": "+1 (641) 455-6100", "href": "tel:+1 (641) 455-6100"},
+        {"text": "Home", "href": "https://www.oaiconference.com/home-archive"},
+        {"text": "Program", "href": "https://www.oaiconference.com/program"},
+        {"text": "Speakers", "href": "https://www.oaiconference.com/speakers-archive"},
+        {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+        {"text": "Registration", "href": "https://www.oaiconference.com/event-list"},
+        {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+        {"text": "How to use OpenClaw", "href": "https://www.oaiconference.com/openclaw"},
+        {"text": "Mastering Agentic Coding", "href": "https://www.oaiconference.com/master-agentic-coding"},
+        {"text": "Context Engineering with Redis & Langchain", "href": "https://www.oaiconference.com/context-engineering"},
+        {"text": "Optimizing Training & Inference", "href": "https://www.oaiconference.com/optimize-llm-performance"},
+        {"text": "Optimizing Agentic RAG", "href": "https://www.oaiconference.com/multi-agent"},
+        {"text": "Multi Agent Architecture", "href": "https://www.oaiconference.com/multi-agent"},
+        {"text": "Trustworthy Agentic AI", "href": "https://www.oaiconference.com/trustworthy-agents"},
+        {"text": "Building an AI-Native Career", "href": "https://www.oaiconference.com/ai-career"},
+        {"text": "Production Ready Agentic AI Systems", "href": "https://www.oaiconference.com/production-agents"}
+      ]
+    },
+    "metadata": {
+      "description": "The Optimized AI Conference ensures a harassment-free space, banning offensive behavior or content. Violators face removal. Support is available for concerns."
+    }
+  }
+}

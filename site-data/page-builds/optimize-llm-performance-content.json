@@ -1,0 +1,399 @@
+{
+  "slug": "optimize-llm-performance",
+  "url": "https://www.oaiconference.com/optimize-llm-performance",
+  "title": "Optimizing LLM Training and Inference Performance on GPUs",
+  "scraped_at": "2026-04-02",
+  "content": {
+    "nav_items": [
+      {
+        "text": "Home",
+        "href": "https://www.oaiconference.com"
+      },
+      {
+        "text": "Workshops",
+        "href": "https://www.oaiconference.com/workshops-2026"
+      },
+      {
+        "text": "Program",
+        "href": "https://www.oaiconference.com/program"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.oaiconference.com/speakers"
+      },
+      {
+        "text": "Registration",
+        "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.oaiconference.com/contact-us"
+      }
+    ],
+    "workshop_subnav": [
+      {
+        "text": "Production Ready Agentic AI Systems",
+        "href": "https://www.oaiconference.com/production-agents"
+      },
+      {
+        "text": "How to use OpenClaw",
+        "href": "https://www.oaiconference.com/openclaw"
+      },
+      {
+        "text": "Context Engineering",
+        "href": "https://www.oaiconference.com/context-engineering"
+      },
+      {
+        "text": "Building an AI-Native Career",
+        "href": "https://www.oaiconference.com/ai-career"
+      },
+      {
+        "text": "Mastering GPUs & Agentic Coding",
+        "href": "https://www.oaiconference.com/master-agentic-coding"
+      },
+      {
+        "text": "Multi Agent Architecture",
+        "href": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "text": "Optimizing LLM Training and Inference",
+        "href": "https://www.oaiconference.com/optimize-llm-performance"
+      },
+      {
+        "text": "Trustworthy Agentic AI",
+        "href": "https://www.oaiconference.com/trustworthy-agents"
+      },
+      {
+        "text": "Optimizing Retrieval for Agentic Systems",
+        "href": "https://www.oaiconference.com/agent-retrieval"
+      },
+      {
+        "text": "Talks",
+        "href": "https://www.oaiconference.com/talks"
+      },
+      {
+        "text": "About",
+        "href": "https://www.oaiconference.com/about"
+      },
+      {
+        "text": "Code of Conduct",
+        "href": "https://www.oaiconference.com/code-of-conduct"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://www.oaiconference.com/gallery"
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Optimizing LLM Training and Inference Performance on GPUs"
+      },
+      {
+        "level": 5,
+        "text": "Technical Marketing Engineer - NVIDIA"
+      },
+      {
+        "level": 2,
+        "text": "Zeyuan (Faradawn) Yang"
+      },
+      {
+        "level": 2,
+        "text": "Workshop Overview"
+      },
+      {
+        "level": 2,
+        "text": "Time and Location"
+      },
+      {
+        "level": 5,
+        "text": "March 31, 2026"
+      },
+      {
+        "level": 5,
+        "text": "3:15pm - 4:15pm"
+      },
+      {
+        "level": 5,
+        "text": "Cobb Galleria"
+      },
+      {
+        "level": 2,
+        "text": "Workshop Requirements"
+      },
+      {
+        "level": 2,
+        "text": "Content"
+      },
+      {
+        "level": 2,
+        "text": "Workshops"
+      }
+    ],
+    "body_text": [
+      {
+        "section": "title",
+        "text": "Optimizing LLM Training and Inference Performance on GPUs"
+      },
+      {
+        "section": "description",
+        "text": "This 1-hour lecture-based workshop explores how to optimize GPU performance and reduce operational costs when training and serving large language models. Attendees will learn practical strategies for high-throughput training and low-latency inference, including modern parallelism techniques and disaggregated serving architectures used in production-scale LLM systems."
+      },
+      {
+        "section": "speaker_name",
+        "text": "Zeyuan (Faradawn) Yang"
+      },
+      {
+        "section": "speaker_title",
+        "text": "Technical Marketing Engineer - NVIDIA"
+      },
+      {
+        "section": "speaker_bio",
+        "text": "Drives optimization of large-scale LLM inference and AI systems performance. M.S. in Computer Science from the University of Chicago, with thesis research on GNN-based cache system acceleration, with related work presented at PyTorch Conference 2025. Currently working in NVIDIA AI Platform Software team, focused on LLM optimization, inference systems, and developer-facing AI infrastructure."
+      },
+      {
+        "section": "workshop_overview",
+        "text": "Part 1\n— Optimizing Distributed LLM Training on GPUs\nThis section focuses on achieving peak training efficiency for large language models using modern distributed training techniques. We’ll explore how Data Parallelism (DP), Tensor Parallelism (TP), Sequence Parallelism (SP), Expert Parallelism (EP), and Context Parallelism work together in systems like Megatron-LM. You’ll gain an intuition for when and why to combine these strategies, how they impact memory, communication, and throughput, and how to choose the right parallelism mix as models and context lengths scale. The goal is to build a clear mental model for designing cost-efficient, high-performance LLM training pipelines on multi-GPU and multi-node systems.\nPart 2\n— High-Performance LLM Inference & Disaggregated Serving\nThe second section shifts to inference optimization, breaking down the KV cache lifecycle across prefill and decode phases and how these phases stress GPU resources differently. We’ll analyze how modern inference engines optimize these stages and why naive serving leads to prefill-decode interference and poor tail latency. You’ll then learn Disaggregated Serving with Dynamo, where prefill and decode are separated onto specialized GPU pools. This architecture dramatically reduces P99 latency, improves throughput, and maximizes hardware utilization—especially for long-context and multi-tenant workloads. We’ll also discuss how context parallelism and caching strategies evolve as context windows grow.\nWhat You’ll Walk Away With\nA practical framework for combining DP, TP, SP, EP, and context parallelism\nA clear understanding of KV cache behavior during prefill vs decode\nWhen and why to use disaggregated serving in production LLM systems\nArchitectural intuition for scaling LLM training and inference efficiently on GPUs"
+      },
+      {
+        "section": "time_and_location",
+        "text": "March 31, 2026\n3:15pm - 4:15pm\nCobb Galleria"
+      },
+      {
+        "section": "who_should_attend",
+        "text": "ML & MLOps Engineers training and serving large language models in production"
+      },
+      {
+        "section": "who_should_attend",
+        "text": "AI Infrastructure & Platform Engineers optimizing GPU performance, cost, and scalability"
+      },
+      {
+        "section": "who_should_attend",
+        "text": "Systems Engineers & CUDA Practitioners working with distributed training and inference"
+      },
+      {
+        "section": "who_should_attend",
+        "text": "AI Architects & Technical Leads designing efficient, low-latency LLM systems"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Call for Speakers",
+        "href": "https://www.oaiconference.com/call-for-speakers"
+      },
+      {
+        "text": "Prod",
+        "href": "https://www.oaiconference.com/production-agents"
+      }
+    ],
+    "speaker": {
+      "name": "Zeyuan (Faradawn) Yang",
+      "title": "Technical Marketing Engineer - NVIDIA",
+      "company": "",
+      "bio": "Drives optimization of large-scale LLM inference and AI systems performance. M.S. in Computer Science from the University of Chicago, with thesis research on GNN-based cache system acceleration, with related work presented at PyTorch Conference 2025. Currently working in NVIDIA AI Platform Software team, focused on LLM optimization, inference systems, and developer-facing AI infrastructure.",
+      "image_url": ""
+    },
+    "workshop_details": {
+      "date": "March 31, 2026",
+      "time": "3:15pm - 4:15pm",
+      "location": "Cobb Galleria",
+      "duration": "1 hour"
+    },
+    "requirements": {
+      "who_should_attend": [
+        "ML & MLOps Engineers training and serving large language models in production",
+        "AI Infrastructure & Platform Engineers optimizing GPU performance, cost, and scalability",
+        "Systems Engineers & CUDA Practitioners working with distributed training and inference",
+        "AI Architects & Technical Leads designing efficient, low-latency LLM systems"
+      ],
+      "who_should_not": [],
+      "prerequisites": []
+    },
+    "links": [
+      {
+        "text": "Home",
+        "href": "https://www.oaiconference.com"
+      },
+      {
+        "text": "Workshops",
+        "href": "https://www.oaiconference.com/workshops-2026"
+      },
+      {
+        "text": "Program",
+        "href": "https://www.oaiconference.com/program"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.oaiconference.com/speakers"
+      },
+      {
+        "text": "Registration",
+        "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.oaiconference.com/contact-us"
+      },
+      {
+        "text": "Call for Speakers",
+        "href": "https://www.oaiconference.com/call-for-speakers"
+      },
+      {
+        "text": "Zeyuan (Faradawn) Yang",
+        "href": "https://www.linkedin.com/in/faradawn/"
+      },
+      {
+        "text": "Home",
+        "href": "https://www.oaiconference.com/home-archive"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.oaiconference.com/speakers-archive"
+      },
+      {
+        "text": "Registration",
+        "href": "https://www.oaiconference.com/event-list"
+      },
+      {
+        "text": "How to use OpenClaw",
+        "href": "https://www.oaiconference.com/openclaw"
+      },
+      {
+        "text": "Mastering Agentic Coding",
+        "href": "https://www.oaiconference.com/master-agentic-coding"
+      },
+      {
+        "text": "Context Engineering with Redis & Langchain",
+        "href": "https://www.oaiconference.com/context-engineering"
+      },
+      {
+        "text": "Optimizing Training & Inference",
+        "href": "https://www.oaiconference.com/optimize-llm-performance"
+      },
+      {
+        "text": "Optimizing Agentic RAG",
+        "href": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "text": "Multi Agent Architecture",
+        "href": "https://www.oaiconference.com/multi-agent"
+      },
+      {
+        "text": "Trustworthy Agentic AI",
+        "href": "https://www.oaiconference.com/trustworthy-agents"
+      },
+      {
+        "text": "Building an AI-Native Career",
+        "href": "https://www.oaiconference.com/ai-career"
+      },
+      {
+        "text": "Prod",
+        "href": "https://www.oaiconference.com/production-agents"
+      },
+      {
+        "text": "Program",
+        "href": "https://www.oaiconference.com/talks"
+      },
+      {
+        "text": "Talks",
+        "href": "https://www.oaiconference.com/talks"
+      },
+      {
+        "text": "About",
+        "href": "https://www.oaiconference.com/about"
+      },
+      {
+        "text": "Code of Conduct",
+        "href": "https://www.oaiconference.com/code-of-conduct"
+      },
+      {
+        "text": "Gallery",
+        "href": "https://www.oaiconference.com/gallery"
+      }
+    ],
+    "footer": {
+      "text": "Content\n\nHome\n\nProgram\n\nSpeakers\n\nWorkshops\n\nRegistration\n\nContact Us\n\nWorkshops\n\nHow to use OpenClaw\n\nMastering Agentic Coding\n\nContext Engineering with Redis & Langchain\n\nOptimizing Training & Inference\n\nOptimizing Agentic RAG\n\nMulti Agent Architecture\n\nTrustworthy Agentic AI\n\nBuilding an AI-Native Career\n\nProduction Ready Agentic AI Systems\n\n© Optimized AI Conference 2026",
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.oaiconference.com"
+        },
+        {
+          "text": "Workshops",
+          "href": "https://www.oaiconference.com/workshops-2026"
+        },
+        {
+          "text": "Program",
+          "href": "https://www.oaiconference.com/program"
+        },
+        {
+          "text": "Speakers",
+          "href": "https://www.oaiconference.com/speakers"
+        },
+        {
+          "text": "Registration",
+          "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.oaiconference.com/contact-us"
+        },
+        {
+          "text": "How to use OpenClaw",
+          "href": "https://www.oaiconference.com/openclaw"
+        },
+        {
+          "text": "Mastering Agentic Coding",
+          "href": "https://www.oaiconference.com/master-agentic-coding"
+        },
+        {
+          "text": "Context Engineering with Redis & Langchain",
+          "href": "https://www.oaiconference.com/context-engineering"
+        },
+        {
+          "text": "Optimizing Training & Inference",
+          "href": "https://www.oaiconference.com/optimize-llm-performance"
+        },
+        {
+          "text": "Optimizing Agentic RAG",
+          "href": "https://www.oaiconference.com/multi-agent"
+        },
+        {
+          "text": "Multi Agent Architecture",
+          "href": "https://www.oaiconference.com/multi-agent"
+        },
+        {
+          "text": "Trustworthy Agentic AI",
+          "href": "https://www.oaiconference.com/trustworthy-agents"
+        },
+        {
+          "text": "Building an AI-Native Career",
+          "href": "https://www.oaiconference.com/ai-career"
+        },
+        {
+          "text": "Talks",
+          "href": "https://www.oaiconference.com/talks"
+        },
+        {
+          "text": "About",
+          "href": "https://www.oaiconference.com/about"
+        },
+        {
+          "text": "Code of Conduct",
+          "href": "https://www.oaiconference.com/code-of-conduct"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://www.oaiconference.com/gallery"
+        }
+      ],
+      "address": "23 Lilac Dr, Warren, NJ 07059",
+      "phone": "+1 (641) 455-6100",
+      "copyright": "© Optimized AI Conference 2026"
+    },
+    "metadata": {
+      "description": "This workshop explores how to optimize GPU performance and reduce operational costs when training and serving large language models. Attendees will learn practical strategies for high-throughput training and low-latency inference, including modern parallelism techniques and disaggregated serving architectures used in production-scale LLM systems.",
+      "og_title": "Building and Deploying AI Agent Systems | OAI"
+    }
+  }
+}

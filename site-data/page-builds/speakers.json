@@ -1,0 +1,28 @@
+{
+  "outer_frame_id": "144:2",
+  "section_ids": {
+    "scroll_content": "144:3",
+    "navbar": "144:4",
+    "hero_header": "144:5",
+    "speaker_grid": "144:6",
+    "footer": "144:7"
+  },
+  "speaker_card_ids": [
+    "153:2",
+    "153:7",
+    "153:12",
+    "153:17",
+    "153:22",
+    "153:27",
+    "153:32",
+    "153:37",
+    "153:42"
+  ],
+  "status": "complete",
+  "page_name": "Speakers",
+  "figma_page": "Prototype",
+  "figma_page_id": "101:2",
+  "position": { "x": 1600, "y": 0 },
+  "dimensions": { "width": 1440, "height": 900 },
+  "built_at": "2026-04-02"
+}

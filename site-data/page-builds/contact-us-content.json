@@ -1,0 +1,70 @@
+{
+  "slug": "contact-us",
+  "url": "https://www.oaiconference.com/contact-us",
+  "title": "Contact Us | Optimized AI Conference",
+  "content": {
+    "nav_items": [
+      {"text": "Home", "href": "https://www.oaiconference.com"},
+      {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+      {"text": "Program", "href": "https://www.oaiconference.com/program"},
+      {"text": "Speakers", "href": "https://www.oaiconference.com/speakers"},
+      {"text": "Registration", "href": "https://www.oaiconference.com/event-details/optimized-ai-conference-2026"},
+      {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers"}
+    ],
+    "headings": [
+      {"level": 1, "text": "Contact Us"},
+      {"level": 2, "text": "Have Questions ?"},
+      {"level": 2, "text": "Social Media"},
+      {"level": 1, "text": "Get In Touch"}
+    ],
+    "body_text": [
+      {"section": "Hero / Tagline", "text": "Building and deploying analytics, machine-learning and gen ai applications to production is no easy task."},
+      {"section": "Hero / Tagline", "text": "Shorten your path to production."},
+      {"section": "Have Questions?", "text": "Thanks for looking into the conference. You can use this form to get more information about speaking at the conference, sponsorships, ticket prices, workshops, or any other questions you may have. Looking forward to hosting you in April 2026."}
+    ],
+    "buttons": [
+      {"text": "SUBMIT", "href": "", "context": "Get In Touch form"},
+      {"text": "Call for Speakers", "href": "https://www.oaiconference.com/call-for-speakers", "context": "header navigation"}
+    ],
+    "event_details": {},
+    "form_fields": [
+      {"label": "Name", "type": "text", "placeholder": "", "required": true},
+      {"label": "Email", "type": "email", "placeholder": "", "required": true},
+      {"label": "Subject", "type": "text", "placeholder": "", "required": true},
+      {"label": "Message", "type": "textarea", "placeholder": "", "required": true}
+    ],
+    "links": [
+      {"text": "Youtube", "href": "https://www.youtube.com/@oaiconference"},
+      {"text": "LinkedIn", "href": "https://www.linkedin.com/company/oaico"}
+    ],
+    "social_media": [
+      {"platform": "Youtube", "href": "https://www.youtube.com/@oaiconference"},
+      {"platform": "LinkedIn", "href": "https://www.linkedin.com/company/oaico"}
+    ],
+    "footer": {
+      "text": "23 Lilac Dr, Warren, NJ 07059 +1 (641) 455-6100 Content: Home, Program, Speakers, Workshops, Registration, Contact Us. Workshops: How to use OpenClaw, Mastering Agentic Coding, Context Engineering with Redis & Langchain, Optimizing Training & Inference, Optimizing Agentic RAG, Multi Agent Architecture, Trustworthy Agentic AI, Building an AI-Native Career, Production Ready Agentic AI Systems. © Optimized AI Conference 2026",
+      "links": [
+        {"text": "+1 (641) 455-6100", "href": "tel:+1 (641) 455-6100"},
+        {"text": "Home", "href": "https://www.oaiconference.com/home-archive"},
+        {"text": "Program", "href": "https://www.oaiconference.com/program"},
+        {"text": "Speakers", "href": "https://www.oaiconference.com/speakers-archive"},
+        {"text": "Workshops", "href": "https://www.oaiconference.com/workshops-2026"},
+        {"text": "Registration", "href": "https://www.oaiconference.com/event-list"},
+        {"text": "Contact Us", "href": "https://www.oaiconference.com/contact-us"},
+        {"text": "How to use OpenClaw", "href": "https://www.oaiconference.com/openclaw"},
+        {"text": "Mastering Agentic Coding", "href": "https://www.oaiconference.com/master-agentic-coding"},
+        {"text": "Context Engineering with Redis & Langchain", "href": "https://www.oaiconference.com/context-engineering"},
+        {"text": "Optimizing Training & Inference", "href": "https://www.oaiconference.com/optimize-llm-performance"},
+        {"text": "Optimizing Agentic RAG", "href": "https://www.oaiconference.com/multi-agent"},
+        {"text": "Multi Agent Architecture", "href": "https://www.oaiconference.com/multi-agent"},
+        {"text": "Trustworthy Agentic AI", "href": "https://www.oaiconference.com/trustworthy-agents"},
+        {"text": "Building an AI-Native Career", "href": "https://www.oaiconference.com/ai-career"},
+        {"text": "Production Ready Agentic AI Systems", "href": "https://www.oaiconference.com/production-agents"}
+      ]
+    },
+    "metadata": {
+      "description": "Contact the Optimized AI Conference team for help with registration, speakers, schedules, sponsorships, or event info. Visit the Contact Page for support."
+    }
+  }
+}
