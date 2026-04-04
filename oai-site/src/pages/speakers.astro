@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroSection from '../components/HeroSection.astro';
+import SpeakerCard from '../components/SpeakerCard.astro';
+import SectionHeader from '../components/SectionHeader.astro';
+import Button from '../components/Button.astro';
+import { speakers, featuredSpeakers } from '../data/speakers';
+
+const otherSpeakers = speakers.filter(s => !s.featured);
+---
+
+<BaseLayout title="Speakers | Optimized AI Conference 2026" description="Meet the Optimized AI Conference 2026 speakers -- industry leaders from Google, Microsoft, NVIDIA, Netflix, AWS, and more.">
+
+  <!-- Hero -->
+  <HeroSection
+    title="Speakers 2026"
+    subtitle="70+ speakers from the world's leading AI companies sharing real-world insights on agentic systems, multi-agent architectures, deployment strategies, and AI strategy."
+    badge="70+ Industry Leaders"
+  />
+
+  <!-- Featured Keynote Speakers -->
+  <section class="py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <SectionHeader
+        title="Featured Keynote Speakers"
+        badge="Keynotes"
+      />
+
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 animate-on-scroll">
+        {featuredSpeakers.map((s) => (
+          <SpeakerCard
+            name={s.name}
+            role={s.role}
+            company={s.company}
+            featured={true}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- All 2026 Speakers -->
+  <section class="py-20 lg:py-28">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <SectionHeader
+        title="2026 Speakers"
+        subtitle="Professionals from Netflix, Tubi, Google, NVIDIA, AWS, The Home Depot, Redis, Kilo Code, Searchkernel, Shutterstock, and many more."
+      />
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 animate-on-scroll">
+        {otherSpeakers.map((s) => (
+          <SpeakerCard
+            name={s.name}
+            role={s.role}
+            company={s.company}
+          />
+        ))}
+      </div>
+
+      <div class="mt-16 text-center animate-on-scroll">
+        <p class="text-2xl font-display font-600 text-text-secondary mb-4">
+          more speakers coming soon
+        </p>
+        <Button href="/call-for-speakers" variant="primary" size="lg">
+          Apply to Speak
+        </Button>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>

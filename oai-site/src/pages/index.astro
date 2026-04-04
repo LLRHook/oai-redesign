@@ -1,0 +1,301 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroSection from '../components/HeroSection.astro';
+import SectionHeader from '../components/SectionHeader.astro';
+import SpeakerCard from '../components/SpeakerCard.astro';
+import WorkshopCard from '../components/WorkshopCard.astro';
+import TicketCard from '../components/TicketCard.astro';
+import TestimonialCard from '../components/TestimonialCard.astro';
+import ScheduleRow from '../components/ScheduleRow.astro';
+import Button from '../components/Button.astro';
+import Badge from '../components/Badge.astro';
+
+import { speakers, featuredSpeakers } from '../data/speakers';
+import { workshops } from '../data/workshops';
+import { tickets } from '../data/tickets';
+import { testimonials } from '../data/testimonials';
+import { virtualSchedule, inPersonSchedule } from '../data/schedule';
+
+// Show first 8 speakers on homepage
+const homeSpeakers = speakers.slice(0, 8);
+// Show first 6 workshops on homepage
+const homeWorkshops = workshops.slice(0, 6);
+---
+
+<BaseLayout title="Home | Optimized AI Conference 2026 | Speakers | Workshops">
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <HeroSection
+    title=""
+    badge="MARCH 30-31, 2026 | ATLANTA, GA"
+    subtitle="An affordable, hands-on AI conference designed for students, professionals, and executives alike. Gain real skills, practical strategies, and tools you can use immediately."
+    showStats={true}
+  >
+    <h1
+      slot="title"
+      class="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[5rem] font-700 text-text-primary tracking-tight leading-[1.05]"
+    >
+      Architecting<br />
+      <span class="text-primary">Agentic AI</span><br />
+      Systems
+    </h1>
+    <div
+      class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
+      style="animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both;"
+    >
+      <Button href="/workshops" variant="primary" size="lg">Explore Workshops</Button>
+      <Button href="/speakers" variant="outline" size="lg">View Speakers</Button>
+    </div>
+  </HeroSection>
+
+  <!-- ═══════════════════ DISCOUNTS / FREE OPTIONS ═══════════════════ -->
+  <section class="py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <SectionHeader
+        title="Free Ticket Options & Discounts"
+        subtitle="We keep the conference affordable so everyone can participate."
+        badge="Save Money"
+      />
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 animate-on-scroll">
+        <!-- Decision Makers -->
+        <div class="rounded-xl bg-surface-elevated border border-surface-border p-6 transition-all duration-300 hover:border-primary/20 hover:-translate-y-1">
+          <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-600 text-text-primary mb-2">Decision Makers - FREE</h3>
+          <p class="text-sm text-text-secondary font-body leading-relaxed">
+            Senior managers and above are eligible to apply for a complimentary ticket -- email team@oaiconference.com with your LinkedIn profile to request access.
+          </p>
+        </div>
+
+        <!-- Repost Discount -->
+        <div class="rounded-xl bg-surface-elevated border border-surface-border p-6 transition-all duration-300 hover:border-secondary/20 hover:-translate-y-1">
+          <div class="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-600 text-text-primary mb-2">Repost Discount - 25%</h3>
+          <p class="text-sm text-text-secondary font-body leading-relaxed">
+            Get 25% off when you repost a conference update on LinkedIn or X. Email a screenshot to team@oaiconference.com, and we'll send you your discount code.
+          </p>
+        </div>
+
+        <!-- Volunteer -->
+        <div class="rounded-xl bg-surface-elevated border border-surface-border p-6 transition-all duration-300 hover:border-primary/20 hover:-translate-y-1">
+          <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-600 text-text-primary mb-2">Volunteer - FREE</h3>
+          <p class="text-sm text-text-secondary font-body leading-relaxed">
+            Volunteers play a key role in making the conference run smoothly. Open to students and professionals. Register with code VOL-2026 -- limited tickets available.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ WORKSHOPS ═══════════════════ -->
+  <section class="py-20 lg:py-28">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <SectionHeader
+        title="Workshops"
+        subtitle="Hands-on technical workshops: Go beyond the theory with deep-dive sessions led by industry pioneers. Master the full stack of agentic AI."
+        badge="Day 2 - March 31"
+      />
+
+      <p class="text-center text-sm text-text-tertiary font-body mb-12 -mt-10">
+        Workshops take place on the afternoon of Day 2 at 1:00 PM on March 31.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-on-scroll">
+        {homeWorkshops.map((ws) => (
+          <WorkshopCard
+            slug={ws.slug}
+            title={ws.title}
+            speakerName={ws.speakerName}
+            description={ws.description}
+            duration={ws.duration}
+            date={ws.date}
+          />
+        ))}
+      </div>
+
+      <div class="mt-12 text-center">
+        <Button href="/workshops" variant="outline" size="lg">
+          View All 11 Workshops
+        </Button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ SPEAKERS ═══════════════════ -->
+  <section class="py-20 lg:py-28 bg-surface">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <SectionHeader
+        title="2026 Speakers"
+        subtitle="Industry leaders from Google, Microsoft, NVIDIA, Netflix, AWS, The Home Depot, and more sharing real-world AI insights."
+        badge="70+ Speakers"
+      />
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 animate-on-scroll">
+        {homeSpeakers.map((s) => (
+          <SpeakerCard
+            name={s.name}
+            role={s.role}
+            company={s.company}
+            featured={s.featured}
+          />
+        ))}
+      </div>
+
+      <div class="mt-12 text-center">
+        <Button href="/speakers" variant="outline" size="lg">
+          See All Speakers
+        </Button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ VIRTUAL SCHEDULE ═══════════════════ -->
+  <section class="py-20 lg:py-28">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <SectionHeader
+        title="Virtual Event Schedule"
+        subtitle="Join us online for a full day of talks from industry leaders."
+        badge="Oct 29, 2025"
+      />
+
+      <div class="max-w-3xl mx-auto space-y-2 animate-on-scroll">
+        {virtualSchedule.map((item) => (
+          <ScheduleRow
+            time={item.time}
+            title={item.title}
+            speaker={item.speaker}
+            type={item.type}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ IN-PERSON PROGRAM ═══════════════════ -->
+  <section class="py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <SectionHeader
+        title="Program Overview"
+        subtitle="Join us for one or both days at the Cobb Galleria Center, Atlanta."
+        badge="March 30-31"
+      />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto animate-on-scroll">
+        <div class="rounded-xl bg-surface-elevated border border-surface-border p-8 text-center transition-all duration-300 hover:border-primary/30 hover:-translate-y-1">
+          <Badge variant="primary">Day 1</Badge>
+          <h3 class="font-display text-2xl font-600 text-text-primary mt-4 mb-2">{inPersonSchedule.day1.date}</h3>
+          <p class="font-display text-lg font-500 text-primary mb-3">{inPersonSchedule.day1.label}</p>
+          <p class="text-sm text-text-secondary font-body">{inPersonSchedule.day1.description}</p>
+        </div>
+        <div class="rounded-xl bg-surface-elevated border border-surface-border p-8 text-center transition-all duration-300 hover:border-secondary/30 hover:-translate-y-1">
+          <Badge variant="secondary">Day 2</Badge>
+          <h3 class="font-display text-2xl font-600 text-text-primary mt-4 mb-2">{inPersonSchedule.day2.date}</h3>
+          <p class="font-display text-lg font-500 text-secondary mb-3">{inPersonSchedule.day2.label}</p>
+          <p class="text-sm text-text-secondary font-body">{inPersonSchedule.day2.description}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ TICKETS ═══════════════════ -->
+  <section class="py-20 lg:py-28">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <SectionHeader
+        title="Tickets"
+        subtitle="Affordable pricing for everyone -- from students to executives."
+        badge="Register Now"
+      />
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 animate-on-scroll">
+        {tickets.map((t) => (
+          <TicketCard
+            name={t.name}
+            price={t.price}
+            originalPrice={t.originalPrice}
+            description={t.description}
+            features={t.features}
+            featured={t.featured}
+            ctaText={t.ctaText}
+          />
+        ))}
+      </div>
+
+      <div class="mt-8 text-center">
+        <p class="text-sm text-text-tertiary font-body">
+          Teams of 3+ get 30% off with code <span class="text-primary font-600 font-display">GROUP30</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ TESTIMONIALS ═══════════════════ -->
+  <section class="py-20 lg:py-28 bg-surface">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <SectionHeader
+        title="Why Top Speakers Attend!"
+        subtitle="Hear from past speakers about their experience at the Optimized AI Conference."
+      />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-on-scroll">
+        {testimonials.map((t) => (
+          <TestimonialCard
+            quote={t.quote}
+            name={t.name}
+            role={t.role}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ COMPANIES ═══════════════════ -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+      <h2 class="font-display text-2xl font-600 text-text-primary mb-4">Companies Represented</h2>
+      <p class="text-sm text-text-secondary font-body mb-10 max-w-xl mx-auto">
+        As practitioners, we recruit speakers from top companies to bring you the latest industry best practices.
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-text-tertiary">
+        {['Google', 'Microsoft', 'NVIDIA', 'AWS', 'Netflix', 'The Home Depot', 'Redis', 'Shutterstock', 'Tubi', 'Meta', 'Walmart', 'LinkedIn'].map((company) => (
+          <span class="font-display text-lg font-600 opacity-40 hover:opacity-80 hover:text-text-secondary transition-all duration-300">
+            {company}
+          </span>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ NEWSLETTER CTA ═══════════════════ -->
+  <section class="py-20 bg-surface">
+    <div class="max-w-3xl mx-auto px-6 lg:px-8 text-center">
+      <h2 class="font-display text-3xl md:text-4xl font-600 text-text-primary mb-4">
+        Don't miss our updates
+      </h2>
+      <p class="text-text-secondary font-body mb-8">
+        Stay in touch -- follow us on YouTube and LinkedIn for the latest conference news.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <Button href="https://www.youtube.com/@oaiconference" variant="outline" size="lg">
+          Subscribe on YouTube
+        </Button>
+        <Button href="https://www.linkedin.com/company/oaico" variant="outline" size="lg">
+          Follow on LinkedIn
+        </Button>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>

@@ -1,0 +1,29 @@
+---
+interface Props {
+  title: string;
+  subtitle?: string;
+  badge?: string;
+  align?: 'left' | 'center';
+  class?: string;
+}
+
+const { title, subtitle, badge, align = 'center', class: className = '' } = Astro.props;
+
+const alignClass = align === 'center' ? 'text-center mx-auto' : 'text-left';
+---
+
+<div class={`max-w-3xl mb-16 ${alignClass} ${className}`}>
+  {badge && (
+    <span class="inline-flex items-center px-3 py-1 rounded-md text-xs font-display font-600 uppercase tracking-wider border bg-primary/10 text-primary border-primary/20 mb-4">
+      {badge}
+    </span>
+  )}
+  <h2 class="font-display text-4xl md:text-5xl font-600 text-text-primary tracking-tight leading-[1.1]">
+    {title}
+  </h2>
+  {subtitle && (
+    <p class="mt-5 text-lg text-text-secondary font-body leading-relaxed">
+      {subtitle}
+    </p>
+  )}
+</div>

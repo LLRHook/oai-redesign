@@ -1,0 +1,44 @@
+---
+interface Props {
+  time: string;
+  title: string;
+  speaker?: string;
+  type: 'talk' | 'break' | 'keynote' | 'panel';
+}
+
+const { time, title, speaker, type } = Astro.props;
+
+const typeStyles = {
+  talk: 'border-l-secondary',
+  break: 'border-l-text-tertiary opacity-60',
+  keynote: 'border-l-primary',
+  panel: 'border-l-[#8B5CF6]',
+};
+
+const typeBadge = {
+  talk: { text: 'Talk', class: 'bg-secondary/10 text-secondary border-secondary/20' },
+  break: { text: 'Break', class: 'bg-surface-elevated text-text-tertiary border-surface-border' },
+  keynote: { text: 'Keynote', class: 'bg-primary/10 text-primary border-primary/20' },
+  panel: { text: 'Panel', class: 'bg-[#8B5CF6]/10 text-[#8B5CF6] border-[#8B5CF6]/20' },
+};
+---
+
+<div class={`group flex flex-col sm:flex-row items-start gap-4 sm:gap-8 py-5 px-5 rounded-lg border-l-4 ${typeStyles[type]} transition-all duration-300 hover:bg-surface-elevated/50`}>
+  <!-- Time -->
+  <div class="flex-shrink-0 w-36">
+    <span class="font-display text-sm font-600 text-text-tertiary tracking-wide">{time}</span>
+  </div>
+
+  <!-- Content -->
+  <div class="flex-1">
+    <div class="flex flex-wrap items-center gap-3 mb-1">
+      <h4 class="font-display text-base font-600 text-text-primary">{title}</h4>
+      <span class={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-display font-600 uppercase tracking-wider border ${typeBadge[type].class}`}>
+        {typeBadge[type].text}
+      </span>
+    </div>
+    {speaker && (
+      <p class="text-sm text-text-secondary font-body">{speaker}</p>
+    )}
+  </div>
+</div>

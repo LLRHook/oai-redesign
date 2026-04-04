@@ -1,0 +1,41 @@
+---
+import { getAvatarColor, getInitials } from '../data/speakers';
+
+interface Props {
+  name: string;
+  role: string;
+  company: string;
+  featured?: boolean;
+}
+
+const { name, role, company, featured = false } = Astro.props;
+const bgColor = getAvatarColor(name);
+const initials = getInitials(name);
+---
+
+<div class={`group relative rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-1 ${featured ? 'bg-surface-elevated border-2 border-primary/20 hover:border-primary/50' : 'bg-surface border border-surface-border hover:border-surface-border/80'}`}>
+  <!-- Avatar -->
+  <div class="relative aspect-square overflow-hidden">
+    <div
+      class="w-full h-full flex items-center justify-center transition-transform duration-500 group-hover:scale-105"
+      style={`background: linear-gradient(135deg, ${bgColor}, ${bgColor}dd)`}
+    >
+      <span class="font-display text-4xl md:text-5xl font-700 text-white/90 select-none">
+        {initials}
+      </span>
+    </div>
+    <!-- Overlay on hover -->
+    <div class="absolute inset-0 bg-gradient-to-t from-bg/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Info -->
+  <div class="p-4">
+    <h3 class="font-display text-base font-600 text-text-primary truncate">{name}</h3>
+    {role && (
+      <p class="text-sm text-text-secondary font-body mt-1 truncate">{role}</p>
+    )}
+    {company && (
+      <p class="text-xs text-primary font-display font-500 mt-1 truncate">{company}</p>
+    )}
+  </div>
+</div>

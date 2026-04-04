@@ -1,0 +1,18 @@
+---
+interface Props {
+  variant?: 'primary' | 'secondary' | 'muted';
+  class?: string;
+}
+
+const { variant = 'primary', class: className = '' } = Astro.props;
+
+const variants = {
+  primary: 'bg-primary/10 text-primary border-primary/20',
+  secondary: 'bg-secondary/10 text-secondary border-secondary/20',
+  muted: 'bg-surface-elevated text-text-secondary border-surface-border',
+};
+---
+
+<span class={`inline-flex items-center px-3 py-1 rounded-md text-xs font-display font-600 uppercase tracking-wider border ${variants[variant]} ${className}`}>
+  <slot />
+</span>

@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import HeroSection from '../../components/HeroSection.astro';
+import WorkshopCard from '../../components/WorkshopCard.astro';
+import SectionHeader from '../../components/SectionHeader.astro';
+import { workshops } from '../../data/workshops';
+---
+
+<BaseLayout title="Workshops | Optimized AI Conference 2026" description="Hands-on workshops covering AI agents, retrieval systems, multi-agent architectures, GPU optimization, and more.">
+
+  <!-- Hero -->
+  <HeroSection
+    title="Workshops"
+    subtitle="Hands-on technical workshops led by industry pioneers. Go beyond the theory and master the full stack of agentic AI -- from GPU-level inference to multi-agent orchestration."
+    badge="Day 2 - March 31, 2026"
+  />
+
+  <!-- Workshops Grid -->
+  <section class="py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <SectionHeader
+        title="2026 Workshops"
+        subtitle="Workshops take place on the afternoon of Day 2 at 1:00 PM on March 31. Join hands-on sessions led by industry experts to build practical skills for deploying and scaling AI systems in production."
+        badge="11 Sessions"
+      />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-on-scroll">
+        {workshops.map((ws) => (
+          <WorkshopCard
+            slug={ws.slug}
+            title={ws.title}
+            speakerName={ws.speakerName}
+            description={ws.description}
+            duration={ws.duration}
+            date={ws.date}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>

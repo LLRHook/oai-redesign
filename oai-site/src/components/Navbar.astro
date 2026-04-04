@@ -1,0 +1,126 @@
+---
+import { mainNav } from '../data/navigation';
+---
+
+<nav id="main-nav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-2 group">
+        <span class="font-display text-2xl font-800 tracking-tight text-primary transition-transform duration-300 group-hover:scale-105">
+          OAI
+        </span>
+        <span class="hidden sm:inline text-text-secondary text-sm font-body font-400 tracking-wide">
+          Conference
+        </span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <div class="hidden md:flex items-center gap-1">
+        {mainNav.map((link) => (
+          <a
+            href={link.href}
+            class="px-4 py-2 text-sm font-body font-500 text-text-secondary hover:text-text-primary transition-colors duration-200 relative group"
+          >
+            {link.text}
+            <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-3/4"></span>
+          </a>
+        ))}
+        <a
+          href="/call-for-speakers"
+          class="ml-4 px-5 py-2.5 bg-primary hover:bg-primary-hover text-bg text-sm font-display font-600 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_rgba(255,107,53,0.3)]"
+        >
+          Call for Speakers
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <button
+        id="mobile-menu-btn"
+        class="md:hidden relative w-10 h-10 flex items-center justify-center"
+        aria-label="Toggle menu"
+      >
+        <div class="hamburger-lines">
+          <span class="block w-6 h-[2px] bg-text-primary transition-all duration-300 origin-center"></span>
+          <span class="block w-6 h-[2px] bg-text-primary transition-all duration-300 mt-1.5"></span>
+          <span class="block w-4 h-[2px] bg-text-primary transition-all duration-300 mt-1.5"></span>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div
+    id="mobile-menu"
+    class="md:hidden fixed inset-0 top-20 bg-bg/98 backdrop-blur-xl -translate-x-full transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
+  >
+    <div class="flex flex-col px-6 pt-8 gap-2">
+      {mainNav.map((link, i) => (
+        <a
+          href={link.href}
+          class="text-2xl font-display font-600 text-text-secondary hover:text-text-primary py-3 border-b border-surface-border/30 transition-all duration-300 hover:pl-2"
+          style={`transition-delay: ${i * 0.05}s`}
+        >
+          {link.text}
+        </a>
+      ))}
+      <a
+        href="/call-for-speakers"
+        class="mt-6 px-6 py-4 bg-primary hover:bg-primary-hover text-bg text-center text-lg font-display font-600 rounded-lg transition-all duration-300"
+      >
+        Call for Speakers
+      </a>
+    </div>
+  </div>
+</nav>
+
+<script>
+  // Scroll-triggered background
+  const nav = document.getElementById('main-nav');
+  let lastScroll = 0;
+
+  function updateNav() {
+    const scrollY = window.scrollY;
+    if (nav) {
+      if (scrollY > 60) {
+        nav.style.backgroundColor = 'rgba(10, 10, 11, 0.92)';
+        nav.style.backdropFilter = 'blur(20px)';
+        nav.style.borderBottom = '1px solid rgba(42, 42, 46, 0.5)';
+      } else {
+        nav.style.backgroundColor = 'transparent';
+        nav.style.backdropFilter = 'none';
+        nav.style.borderBottom = '1px solid transparent';
+      }
+    }
+    lastScroll = scrollY;
+  }
+
+  window.addEventListener('scroll', updateNav, { passive: true });
+  updateNav();
+
+  // Mobile menu toggle
+  const menuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  let menuOpen = false;
+
+  menuBtn?.addEventListener('click', () => {
+    menuOpen = !menuOpen;
+    if (mobileMenu) {
+      mobileMenu.style.transform = menuOpen ? 'translateX(0)' : 'translateX(-100%)';
+    }
+    const lines = menuBtn.querySelectorAll('.hamburger-lines span');
+    if (menuOpen) {
+      lines[0].style.transform = 'translateY(7px) rotate(45deg)';
+      lines[1].style.opacity = '0';
+      lines[2].style.transform = 'translateY(-7px) rotate(-45deg)';
+      lines[2].style.width = '24px';
+      document.body.style.overflow = 'hidden';
+    } else {
+      lines[0].style.transform = '';
+      lines[1].style.opacity = '1';
+      lines[2].style.transform = '';
+      lines[2].style.width = '16px';
+      document.body.style.overflow = '';
+    }
+  });
+</script>

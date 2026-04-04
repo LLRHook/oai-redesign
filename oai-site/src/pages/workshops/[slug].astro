@@ -1,0 +1,169 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Button from '../../components/Button.astro';
+import Badge from '../../components/Badge.astro';
+import { workshops } from '../../data/workshops';
+import { getAvatarColor, getInitials } from '../../data/speakers';
+
+export function getStaticPaths() {
+  return workshops.map((ws) => ({
+    params: { slug: ws.slug },
+    props: { workshop: ws },
+  }));
+}
+
+const { workshop } = Astro.props;
+const bgColor = getAvatarColor(workshop.speakerName);
+const initials = getInitials(workshop.speakerName);
+---
+
+<BaseLayout title={`${workshop.title} | OAI Conference`} description={workshop.description}>
+
+  <!-- Workshop Hero -->
+  <section class="relative pt-32 pb-16 overflow-hidden">
+    <!-- Geometric accent -->
+    <div class="absolute top-20 right-0 w-[300px] h-[300px] opacity-[0.04]"
+      style="background: linear-gradient(135deg, #FF6B35, transparent 60%); clip-path: polygon(30% 0%, 100% 0%, 100% 70%, 70% 100%);"
+    ></div>
+
+    <div class="max-w-4xl mx-auto px-6 lg:px-8">
+      <!-- Breadcrumb -->
+      <nav class="flex items-center gap-2 text-sm font-body mb-8" style="animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;">
+        <a href="/workshops" class="text-text-tertiary hover:text-primary transition-colors">Workshops</a>
+        <span class="text-text-tertiary">/</span>
+        <span class="text-text-secondary">{workshop.title}</span>
+      </nav>
+
+      <!-- Duration + Date badges -->
+      <div class="flex flex-wrap items-center gap-3 mb-6" style="animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.05s both;">
+        <Badge variant="secondary">{workshop.duration}</Badge>
+        <Badge variant="muted">{workshop.date}</Badge>
+      </div>
+
+      <!-- Title -->
+      <h1
+        class="font-display text-4xl md:text-5xl lg:text-6xl font-700 text-text-primary tracking-tight leading-[1.1] mb-8"
+        style="animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;"
+      >
+        {workshop.title}
+      </h1>
+
+      <!-- Description -->
+      <p
+        class="text-lg text-text-secondary font-body leading-relaxed max-w-3xl mb-10"
+        style="animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;"
+      >
+        {workshop.description}
+      </p>
+
+      <div style="animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;">
+        <Button href="/contact" variant="primary" size="lg">Register for Workshop</Button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Speaker Section -->
+  <section class="py-16 bg-surface">
+    <div class="max-w-4xl mx-auto px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-start gap-8 animate-on-scroll">
+        <!-- Avatar -->
+        <div
+          class="w-28 h-28 md:w-36 md:h-36 rounded-xl flex items-center justify-center flex-shrink-0"
+          style={`background: linear-gradient(135deg, ${bgColor}, ${bgColor}dd)`}
+        >
+          <span class="font-display text-4xl md:text-5xl font-700 text-white/90 select-none">{initials}</span>
+        </div>
+
+        <!-- Bio -->
+        <div>
+          <h2 class="font-display text-2xl font-600 text-text-primary mb-1">{workshop.speakerName}</h2>
+          <p class="text-sm text-primary font-display font-500 mb-4">{workshop.speakerTitle}</p>
+          <p class="text-text-secondary font-body leading-relaxed">{workshop.speakerBio}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Workshop Overview -->
+  <section class="py-16">
+    <div class="max-w-4xl mx-auto px-6 lg:px-8">
+      <h2 class="font-display text-3xl font-600 text-text-primary mb-8 animate-on-scroll">Workshop Overview</h2>
+      <div class="prose-custom animate-on-scroll">
+        {workshop.overview.split('\n\n').map((paragraph: string) => (
+          <p class="text-text-secondary font-body leading-relaxed mb-4">{paragraph}</p>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Time and Location -->
+  <section class="py-16 bg-surface">
+    <div class="max-w-4xl mx-auto px-6 lg:px-8">
+      <h2 class="font-display text-3xl font-600 text-text-primary mb-8 animate-on-scroll">Time and Location</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 animate-on-scroll">
+        <div class="rounded-xl bg-surface-elevated border border-surface-border p-6 text-center">
+          <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mx-auto mb-3">
+            <svg class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <p class="font-display text-lg font-600 text-text-primary">{workshop.date}</p>
+          <p class="text-sm text-text-secondary font-body mt-1">Date</p>
+        </div>
+        <div class="rounded-xl bg-surface-elevated border border-surface-border p-6 text-center">
+          <div class="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center mx-auto mb-3">
+            <svg class="w-6 h-6 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <p class="font-display text-lg font-600 text-text-primary">{workshop.time}</p>
+          <p class="text-sm text-text-secondary font-body mt-1">{workshop.duration}</p>
+        </div>
+        <div class="rounded-xl bg-surface-elevated border border-surface-border p-6 text-center">
+          <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mx-auto mb-3">
+            <svg class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </div>
+          <p class="font-display text-lg font-600 text-text-primary">{workshop.location}</p>
+          <p class="text-sm text-text-secondary font-body mt-1">Venue</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who Should Attend -->
+  <section class="py-16">
+    <div class="max-w-4xl mx-auto px-6 lg:px-8">
+      <h2 class="font-display text-3xl font-600 text-text-primary mb-8 animate-on-scroll">Who Should Attend</h2>
+      <ul class="space-y-4 animate-on-scroll">
+        {workshop.whoShouldAttend.map((item: string) => (
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+            <span class="text-text-secondary font-body leading-relaxed">{item}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 bg-surface">
+    <div class="max-w-3xl mx-auto px-6 lg:px-8 text-center animate-on-scroll">
+      <h2 class="font-display text-3xl md:text-4xl font-600 text-text-primary mb-4">
+        Ready to join?
+      </h2>
+      <p class="text-text-secondary font-body mb-8 max-w-xl mx-auto">
+        Register for the full conference to get access to this workshop and all other sessions.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <Button href="/contact" variant="primary" size="lg">Register Now</Button>
+        <Button href="/workshops" variant="outline" size="lg">Browse All Workshops</Button>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
