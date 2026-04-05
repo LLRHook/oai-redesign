@@ -3,3 +3,9 @@ dist/
 .DS_Store
 *.log
 .astro/
+.claude/
+.vscode/
+dogfood-output/
+.orchestrate-output/
+*.png
+*.webm
