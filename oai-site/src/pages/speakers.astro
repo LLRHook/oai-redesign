@@ -47,7 +47,7 @@ const otherSpeakers = speakers.filter(s => !s.featured);
         subtitle="Professionals from Netflix, Tubi, Google, NVIDIA, AWS, The Home Depot, Redis, Kilo Code, Searchkernel, Shutterstock, and many more."
       />
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 animate-on-scroll">
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-5 animate-on-scroll">
         {otherSpeakers.map((s) => (
           <SpeakerCard
             name={s.name}

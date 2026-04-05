@@ -13,7 +13,7 @@ const bgColor = getAvatarColor(name);
 const initials = getInitials(name);
 ---
 
-<div class={`group relative rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-1 ${featured ? 'bg-surface-elevated border-2 border-primary/20 hover:border-primary/50' : 'bg-surface border border-surface-border hover:border-surface-border/80'}`}>
+<div class={`group relative rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-1 border-b-2 border-b-transparent hover:border-b-primary/50 ${featured ? 'bg-surface-elevated border-2 border-primary/20 hover:border-primary/50 hover:border-b-primary/50' : 'bg-surface/50 hover:bg-surface-elevated border border-surface-border hover:border-surface-border/80'}`}>
   <!-- Avatar -->
   <div class="relative aspect-square overflow-hidden">
     <div
