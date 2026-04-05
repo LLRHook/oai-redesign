@@ -58,7 +58,7 @@ export const footerContent = {
   email: "team@oaiconference.com",
   socials: [
     { text: "YouTube", href: "https://www.youtube.com/@oaiconference" },
-    { text: "LinkedIn", href: "https://www.linkedin.com/company/oaico" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/company/optimized-ai-conference" },
   ],
   copyright: "Optimized AI Conference 2026",
 };
