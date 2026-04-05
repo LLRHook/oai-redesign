@@ -78,7 +78,7 @@ import FormField from '../components/FormField.astro';
         <div class="lg:col-span-3 animate-on-scroll">
           <div class="rounded-xl bg-surface-elevated border border-surface-border p-8 lg:p-10">
             <h2 class="font-display text-2xl font-600 text-text-primary mb-8">Apply to Speak</h2>
-            <form class="space-y-6" action="#" method="POST">
+            <form id="speaker-form" class="space-y-6" action="#" method="POST">
               <FormField label="Full Name" type="text" name="name" required={true} />
               <FormField label="Email" type="email" name="email" required={true} />
               <FormField label="Company / Organization" type="text" name="company" required={true} />
@@ -89,10 +89,31 @@ import FormField from '../components/FormField.astro';
                 Submit Application
               </Button>
             </form>
+            <div id="speaker-success" class="hidden text-center py-12">
+              <div class="w-16 h-16 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-6">
+                <svg class="w-8 h-8 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <h3 class="font-display text-2xl font-600 text-text-primary mb-3">Application Received!</h3>
+              <p class="text-text-secondary font-body">Thank you for your interest in speaking. We'll review your application and get back to you within 48 hours.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <script>
+    document.getElementById('speaker-form')?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const form = document.getElementById('speaker-form');
+      const success = document.getElementById('speaker-success');
+      if (form && success) {
+        form.classList.add('hidden');
+        success.classList.remove('hidden');
+      }
+    });
+  </script>
 
 </BaseLayout>

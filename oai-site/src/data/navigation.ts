@@ -36,6 +36,7 @@ export const footerContent = {
     {
       title: "More Workshops",
       links: [
+        { text: "Mastering AI Agents", href: "/workshops/master-agents" },
         { text: "Trustworthy Agentic AI", href: "/workshops/trustworthy-agents" },
         { text: "AI-Native Career", href: "/workshops/ai-career" },
         { text: "Production Agents", href: "/workshops/production-agents" },
