@@ -1,0 +1,76 @@
+{
+  "project": "OAI Conference 2026",
+  "label": "OAI Conference",
+  "output_name": "oai-redesign-demo",
+  "title": "A conference site built for quick decisions",
+  "subtitle": "Show the promise, the workshops, the speaker bench, and the schedule without forcing visitors to hunt.",
+  "end_title": "Static, fast, and event-ready",
+  "end_body": "Astro pages, typed data, and clear routes for registration, speakers, workshops, and program details.",
+  "cta": "cd oai-site && npm run dev",
+  "preview_s": 5.0,
+  "capture": {
+    "method": "agent-browser screenshots",
+    "tools": ["npm", "agent-browser"]
+  },
+  "format": {
+    "fps": 30,
+    "crf": 18,
+    "transition_ms": 240,
+    "transition_card_s": 1.25,
+    "title_hold_s": 1.4,
+    "end_hold_s": 2.6
+  },
+  "clips": [
+    {
+      "id": "01-hero",
+      "label": "Hero",
+      "file": "clips/01-hero.mp4",
+      "caption_title": "The event promise is immediate",
+      "caption_body": "The first viewport names the audience, date, place, and price with direct next actions.",
+      "start_s": 0,
+      "hold_s": 5.2,
+      "speed": 1.0
+    },
+    {
+      "id": "02-workshops",
+      "label": "Workshops",
+      "file": "clips/02-workshops.mp4",
+      "caption_title": "Workshops become the product",
+      "caption_body": "Hands-on sessions are organized as scannable cards with speaker, topic, and detail routes.",
+      "start_s": 0,
+      "hold_s": 5.8,
+      "speed": 1.0
+    },
+    {
+      "id": "03-speakers",
+      "label": "Speakers",
+      "file": "clips/03-speakers.mp4",
+      "caption_title": "Speaker depth is visible fast",
+      "caption_body": "The roster is dense enough to scan, with clear names, roles, and company context.",
+      "start_s": 0,
+      "hold_s": 5.8,
+      "speed": 1.0
+    },
+    {
+      "id": "04-program",
+      "label": "Program",
+      "file": "clips/04-program.mp4",
+      "caption_title": "The program answers the practical questions",
+      "caption_body": "Visitors can compare days, schedule shape, venue details, and ticket options without leaving the site.",
+      "start_s": 0,
+      "hold_s": 5.8,
+      "speed": 1.0
+    }
+  ],
+  "palette": {
+    "bg": "#08090d",
+    "surface": "#111113",
+    "text": "#fafafa",
+    "muted": "#a1a1aa",
+    "grid": "#2a2a2e",
+    "accent": "#ff6b35",
+    "accent_2": "#00d4aa",
+    "accent_text": "#ffd6c5"
+  }
+}
+

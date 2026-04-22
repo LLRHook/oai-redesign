@@ -1,0 +1,7 @@
+.tmp/
+.dev-server.log
+shots/
+
+# The repo ignores PNGs globally; keep the README preview visible to git.
+!output/preview.png
+

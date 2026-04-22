@@ -1,0 +1,31 @@
+1
+00:00:01,160 --> 00:00:02,410
+The event promise is immediate
+
+2
+00:00:02,170 --> 00:00:07,370
+The first viewport names the audience, date, place, and price with direct next actions.
+
+3
+00:00:07,130 --> 00:00:08,380
+Workshops become the product
+
+4
+00:00:08,140 --> 00:00:13,940
+Hands-on sessions are organized as scannable cards with speaker, topic, and detail routes.
+
+5
+00:00:13,700 --> 00:00:14,950
+Speaker depth is visible fast
+
+6
+00:00:14,710 --> 00:00:20,510
+The roster is dense enough to scan, with clear names, roles, and company context.
+
+7
+00:00:20,270 --> 00:00:21,520
+The program answers the practical questions
+
+8
+00:00:21,280 --> 00:00:27,080
+Visitors can compare days, schedule shape, venue details, and ticket options without leaving the site.

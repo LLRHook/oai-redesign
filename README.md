@@ -4,6 +4,12 @@ Redesigned website for the [Optimized AI Conference](https://oaiconference.com) 
 
 Built with **Astro v6** + **Tailwind CSS v4**. Dark theme, 22 static pages, zero JavaScript frameworks.
 
+## Demo
+
+[![Watch the OAI Conference website demo](demo/pipeline/output/preview.png)](demo/pipeline/output/oai-redesign-demo.mp4)
+
+Watch the demo video: [oai-redesign-demo.mp4](demo/pipeline/output/oai-redesign-demo.mp4)
+
 ## Quick Start
 
 ### Prerequisites
